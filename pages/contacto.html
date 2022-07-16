@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--FAVICOM-->
+    <link rel="shorcut icon" href="../resources/logo.png">
+    <title>Fp Estudio de Arquitectura</title>
+</head>
+<body>
+    <header>
+        <nav> <!--BARRA DE NAVEGACION-->
+            <ul class="nav__list">
+                <li class="nav__list__item"><a href="../index.html">Inicio</a></li>
+                <li class="nav__list__item"><a href="obras.html">Obras</a></li>
+                <li class="nav__list__item"><a href="proyectos.html">Proyectos</a></li>
+                <li class="nav__list__item"><a href="contacto.html">Contacto</a></li>
+                <li class="nav__list__item"><a href="sobre-nosotros.html">Sobre Nosotros</a></li>                
+            </ul>          
+            </nav>
+    </header>
+    <main>
+        <section class="form">
+            <article class="formulario">                
+                    <form method="post"> <!--FORMULARIO-->                               
+                        <input type="text" placeholder="Nombre" name="nombre-apellido" class="formulario__input"/>                
+                        <input type="email" placeholder="Email" name="Email" class="formulario__input"/>                
+                        <textarea name="Mensaje" id="Mensaje" placeholder="Mensaje" cols="30" rows="10" class="formulario__input__msj"></textarea>
+                        <input type="submit" name="Enviar" class="formulario__buttom"/>
+                    </form>
+            </article>        
+        <article class="ubicacion"> <!--MAPA-->           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.848823015382!2d-60.9340955842479!3d-31.445828604824477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5133e12764aeb%3A0x2e04c56b2d651dea!2sBerutti%201752%2C%20Esperanza%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1655728189879!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion__maps"></iframe>
+        </article>
+        </section>
+    </main>
+    <footer>
+        <section class="redes"> <!-- REDES-->    
+            <a href="https://www.instagram.com/fp_estudiodearquitectura/"><img src="../resources/instagram.png" alt="instagram" class="redes__img"></a>
+            <a href="https://www.facebook.com/FParquitectura17"><img src="../resources/facebook.png" alt="facebook" class="redes__img"></a>
+    </section>
+    <section class="copyright"> <!-- COPYRIGHT -->
+        <p class="copyright__p">Todos los derechos reservados</p>
+    </section>             
+    <section class="news"> <!-- NEWS -->
+            <img src="../resources/news.png" alt="news" class="news__img">
+            <h4 class="news__title">NEWS</h4>   
+    </footer>
+</body>
+</html>

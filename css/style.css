@@ -102,68 +102,129 @@ footer{
 /* OBRAS */
 .build{
     display: grid;
-    grid-template-areas:"obras obras obras obrasMax obrasMax"
-                        "obras obras obras obrasMax obrasMax"
-                        "obras obras obras obrasMax obrasMax";
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
+    justify-items: center;
+    grid-template-areas:"obras obrasMax";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     height: 60vh;
     width: 100vw;
 }
 
 .obras{  
-    justify-self: center;
     grid-area: obras;
-    padding-top: 200px;
+    align-items: center;
+    display: grid;
+    grid-template-areas:"img1 img2 img3"
+                        "img4 img5 img6"
+                        "img7 img8 img9";
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 150px;
     width: 30vw; 
 }
 
 .obras__img{
-    height:10vh;
+    height:15vh;
     margin: 5px;    
+}
+
+.img1{
+    grid-area: img1;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+.img3{
+    grid-area: img3;
+}
+
+.img4{
+    grid-area: img4;
+}
+
+.img5{
+    grid-area: img5;
+}
+
+.img6{
+    grid-area: img6;
 }
 
 .obrasMax{
     grid-area: obrasMax;
     height: 60vh;
-    width: 50vw;
+    width: 45vw;
 }
 
 .obraMax__img{
     padding-top: 150px;
-    height: 50vh; 
+    height: 48vh; 
 }
 
 /* PROYECTOS */
 .project{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    justify-items: center;
+    grid-template-areas:"proyecto proyectoMax";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
     height: 60vh;
+    width: 100vw;
 }
 
 .proyecto{   
-    display: inline-block;
-    padding-top: 200px;
-    padding-left: 30px;
+    grid-area: proyecto;
+    align-items: center;
+    display: grid;
+    grid-template-areas:"imgP1 imgP2 imgP3"
+                        "imgP4 imgP5 imgP6"
+                        "imgP7 imgP8 imgP9";
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 150px;
     width: 30vw; 
-    height: 60vh;
 }
 
 .proyecto__img{
-    display: inline-block;
-    height:10vh;
-    margin: 5px;     
+    height:15vh;
+    margin: 5px;    
+}
+
+.imgP1{
+    grid-area: imgP1;
+}
+
+.imgP2{
+    grid-area: imgP2;
+}
+
+.imgP3{
+    grid-area: imgP3;
+}
+
+.imgP4{
+    grid-area: imgP4;
+}
+
+.imgP5{
+    grid-area: imgP5;
+}
+
+.imgP6{
+    grid-area: imgP6;
 }
 
 .proyectoMax{
-    height: 60vh;  
+    grid-area: proyectoMax;
+    height: 60vh;
+    width: 45vw;
 }
 
 .proyectoMax__img{
-    display: inline-block;
     padding-top: 150px;
-    margin-left: 50px;
-    height: 50vh; 
+    height: 48vh; 
 }
 
 /* CONTACTO */
@@ -322,37 +383,43 @@ footer{
     /* OBRAS */
     .build{
         display: grid;
-        grid-template-areas:"obras obras obras obrasMax obrasMax"
-                            "obras obras obras obrasMax obrasMax"
-                            "obras obras obras obrasMax obrasMax";
-        grid-template-rows: 1fr 1fr 1fr ;
-        grid-template-columns: 1fr 1fr 1fr 2fr;
+        justify-items: center;
+        grid-template-areas:"obras" 
+                            "obrasMax";
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
         height: 60vh;
         width: 100vw;
     }
     
     .obras{  
-        justify-self: center;
         grid-area: obras;
-        padding-top: 200px;
-        width: 30vw; 
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-template-areas:"img1 img2 img3"
+                            "img4 img5 img6"
+                            "img7 img8 img9";
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 150px;
+        width: 100vw; 
     }
     
     .obras__img{
-        height:10vh;
+        height:8vh;
         margin: 5px;    
     }
-    
+
     .obrasMax{
-        justify-self: center;
         grid-area: obrasMax;
-        height: 60vh;
-        width: 50vw;
+        height: 40vh;
+        width: 100vw;
     }
     
     .obraMax__img{
-        padding-top: 150px;
-        height: 50vh; 
+        padding-top: 30px;
+        height:20vh; 
     }
     /*SOBRE NOSOTROS*/
     .us{

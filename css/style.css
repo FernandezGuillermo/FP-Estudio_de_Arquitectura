@@ -12,13 +12,19 @@ nav{
 nav a{
     text-decoration: none; 
     color: white;
+    transition: all 2s;
+}
+
+nav a:hover{
+    color: aquamarine;
 }
 .nav__list{  
     padding-top: 5px;
     padding-right: 5px;
     display: flex;    
-    justify-content:end;   
+    justify-content:end;  
 }
+
 
 .nav__list__item{ 
     list-style: none; 
@@ -84,6 +90,11 @@ footer{
 .redes__img{
     padding-top: 20px;
     height: 50px;
+    transition: all 2s;
+}
+
+.redes__img:hover{
+    transform: rotate(45deg);
 }
 
 .copyright{
@@ -125,7 +136,12 @@ footer{
 
 .obras__img{
     height:15vh;
-    margin: 5px;    
+    margin: 5px;  
+    transition: all 2s;  
+}
+
+.obras__img:hover{
+    opacity: 0.1;
 }
 
 .img1{
@@ -189,7 +205,12 @@ footer{
 
 .proyecto__img{
     height:15vh;
-    margin: 5px;    
+    margin: 5px; 
+    transition: all 2s;   
+}
+
+.proyecto__img:hover{
+    opacity: 0.2;
 }
 
 .imgP1{
@@ -247,15 +268,22 @@ footer{
     display: block;    
     margin: 15px;
     width: 30vw;
+    transition: all 2s;
+}
+
+.formulario__input:focus{
+    background-color: aquamarine;
 }
 
 .formulario__input__msj{
     display: block;    
     margin: 15px;
     width: 30vw;
+    transition: all 2s;
 }
 
-.formulario__buttom{ 
+.formulario__input__msj:focus{
+    background-color: aquamarine;
 }
 
 .ubicacion{ 
@@ -513,9 +541,6 @@ footer{
         height: auto;
     }
     
-    .nav__list{
-    }
-
     .nav__list__item{
         flex-direction: column;
         font-size: 15px;

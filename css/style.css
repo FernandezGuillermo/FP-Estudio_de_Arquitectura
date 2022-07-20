@@ -301,6 +301,15 @@ footer{
     width: 30vw;
 }
 
+.btn{
+    background-color: white;
+    transition: all 2s;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
 .ubicacion{ 
     grid-area: ubicacion;
     justify-self: center;

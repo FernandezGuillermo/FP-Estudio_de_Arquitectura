@@ -4,8 +4,7 @@
 }
 
 /* NAV */
-nav{
-    height: 7vh;
+/* nav{
     background-color: #212121;
 }
 
@@ -31,6 +30,36 @@ nav a:hover{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin: 15px;
+} */
+
+.navbar-brand{
+    font-size: 20px;
+    transition: all 2s;
+}
+
+.navbar-brand:hover{
+    color: aquamarine;
+}
+
+.bg-oscuro{
+    background-color: #212121;
+}
+
+.navbar-brand{
+    text-decoration: none; 
+    color: white;
+    transition: all 2s;
+}
+
+.nav-link{
+    text-decoration: none; 
+    color: white;
+    transition: all 2s;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: aquamarine;
 }
 
 /* MAIN */
@@ -249,6 +278,14 @@ footer{
 }
 
 /* CONTACTO */
+
+.form-control{
+    transition: all 2s;
+}
+.form-control:focus{
+    background-color: aquamarine;
+}
+
 .form{
     display: grid;
     grid-template-areas: "formulario ubicacion"
@@ -260,30 +297,8 @@ footer{
 .formulario{
     grid-area: formulario;
     justify-self: center;
-    align-self: center;
-    height: 100px;    
-}
-
-.formulario__input{
-    display: block;    
-    margin: 15px;
+    align-self: center;    
     width: 30vw;
-    transition: all 2s;
-}
-
-.formulario__input:focus{
-    background-color: aquamarine;
-}
-
-.formulario__input__msj{
-    display: block;    
-    margin: 15px;
-    width: 30vw;
-    transition: all 2s;
-}
-
-.formulario__input__msj:focus{
-    background-color: aquamarine;
 }
 
 .ubicacion{ 
@@ -354,9 +369,6 @@ footer{
 
 /* MEDIA QUERIE CELULAR*/
 @media (min-width: 320px) and (max-width: 575px) {
-    header{
-        height: auto;
-    }
     
     .nav__list{
         flex-direction: column;

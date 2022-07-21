@@ -498,10 +498,6 @@ footer{
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
 
-    .navbar{
-        height: 20vh;
-    }
-    
     main{
         height: 80vh; 
     }
@@ -517,7 +513,7 @@ footer{
                             "copyright copyright";
         grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-        height: 25vh;
+        height: 15vh;
     }
 
     .redes{
@@ -590,38 +586,17 @@ footer{
         padding: 5px;
     }
 
-
-
-    .form{
-        padding-top: 90px;
-        width: 100vw;
-        grid-template-areas: "formulario"
-                            "ubicacion";
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;   
-    }
-
-    .formulario__input{
-        width: 80vw;
-        justify-self: center;
-        align-self: center;
-        margin: 2px;
-    }
-
-    .formulario__input__msj{
-        justify-self: center;
-        align-self: center;
-        height: 50px;
-        width: 80vw;
-        margin: 2px;
+    .hrow{
+        padding-top: 50px;
+        height: 60vh;
     }
 
     .ubicacion{ 
-        margin-top: 5px;
+        margin-top: 10px;
         padding-top: 10px;
     }
     
     .ubicacion__maps{
         height: 200px;
-        width: 80vw;
+        width: 97vw;
     }

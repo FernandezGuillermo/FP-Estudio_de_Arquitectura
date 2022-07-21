@@ -290,7 +290,7 @@ footer{
     background-color: aquamarine;
 }
 
-.form{
+/* .form{
     display: grid;
     grid-template-areas: "formulario ubicacion"
                         "formulario ubicacion";
@@ -303,7 +303,7 @@ footer{
     justify-self: center;
     align-self: center;    
     width: 30vw;
-}
+} */
 
 .btn{
     background-color: white;
@@ -314,7 +314,7 @@ footer{
     background-color: aquamarine;
 }
 
-.ubicacion{ 
+/* .ubicacion{ 
     grid-area: ubicacion;
     justify-self: center;
     align-self: center;
@@ -324,7 +324,7 @@ footer{
 .ubicacion__maps{
     height: 500px;
     width: 500px;
-}
+} */
 
 /* SOBRE NOSOTROS */
 .us{
@@ -525,7 +525,7 @@ footer{
         padding: 5px;
     }
 
-    .form{
+    /* .form{
         padding-top: 90px;
         grid-template-areas: "formulario"
                             "ubicacion";
@@ -545,9 +545,9 @@ footer{
         height: 30px;
         width: 80vw;
         margin: 2px;
-    }
+    } */
 
-    .ubicacion{ 
+/*     .ubicacion{ 
         margin-top: 5px;
         padding-top: 10px;
     }
@@ -556,7 +556,7 @@ footer{
         height: 150px;
         width: 80vw;
     }
-}
+} */
 
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
@@ -693,4 +693,3 @@ footer{
         height: 200px;
         width: 80vw;
     }
-}

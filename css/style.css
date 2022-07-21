@@ -413,20 +413,63 @@ footer{
     }
     
     .obras__img{
-        height:8vh;
+        height:7vh;
         margin: 5px;    
     }
 
     .obrasMax{
         grid-area: obrasMax;
-        height: 40vh;
-        width: 100vw;
+        justify-self: center;
+        width: 95vw;
     }
     
     .obraMax__img{
         padding-top: 30px;
         height:20vh; 
     }
+
+    /* PROYECTOS */
+    .project{
+        display: grid;
+        justify-items: center;
+        grid-template-areas:"proyecto" 
+                            "proyectoMax";
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        height: 60vh;
+        width: 100vw;
+    }
+    
+    .proyecto{  
+        grid-area: proyecto;
+        justify-items: center;
+        align-items: center;
+        display: grid;
+        grid-template-areas:"imgP1 imgP2 imgP3"
+                            "imgP4 imgP5 imgP6"
+                            "imgP7 imgP8 imgP9";
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 150px;
+        width: 100vw; 
+    }
+    
+    .proyecto__img{
+        height:7vh;
+        margin: 5px;    
+    }
+
+    .proyectoMax{
+        grid-area: proyectoMax;
+        justify-self: center;
+        width: 95vw;
+    }
+    
+    .proyectoMax__img{
+        padding-top: 30px;
+        height:20vh; 
+    }
+
     /*SOBRE NOSOTROS*/
     .us{
         display: grid;
@@ -435,8 +478,8 @@ footer{
         grid-template-rows: 1fr 1fr ;
         grid-template-columns: 1fr;
         width: 100vw;
-        height: 40vh;
-        padding-top: 120px;
+        height: 30vh;
+        padding-top: 30px;
     }
 
     .nosotros{
@@ -467,7 +510,7 @@ footer{
     .staff__img{
         margin-top: 2px;
         margin-left: 40px;
-        height: 75px;
+        height: 60px;
         padding-left: 5px;
     }
 
@@ -517,7 +560,7 @@ footer{
     }
 
     .redes{
-        justify-self: center;
+        justify-self: flex-start;
     }
 
     .redes__img{
@@ -525,7 +568,7 @@ footer{
     }
 
     .news{
-        justify-self: center;
+        justify-self: flex-end;
     }
 
     .copyright{
@@ -535,6 +578,93 @@ footer{
     .copyright__p{
         font-size: 12px;
     }
+
+        /* OBRAS */
+        .build{
+            display: grid;
+            justify-items: center;
+            grid-template-areas:"obras" 
+                                "obrasMax";
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+            height: 60vh;
+            width: 100vw;
+        }
+        
+        .obras{  
+            grid-area: obras;
+            justify-items: center;
+            align-items: center;
+            display: grid;
+            grid-template-areas:"img1 img2 img3"
+                                "img4 img5 img6"
+                                "img7 img8 img9";
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-top: 150px;
+            width: 100vw; 
+        }
+        
+        .obras__img{
+            height:10vh;
+            margin: 5px;    
+        }
+    
+        .obrasMax{
+            grid-area: obrasMax;
+            justify-self: center;
+            width: 95vw;
+        }
+        
+        .obraMax__img{
+            padding-top: 30px;
+            height:30vh;
+            padding-left: 95px; 
+        }
+    
+        /* PROYECTOS */
+        .project{
+            display: grid;
+            justify-items: center;
+            grid-template-areas:"proyecto" 
+                                "proyectoMax";
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+            height: 60vh;
+            width: 100vw;
+        }
+        
+        .proyecto{  
+            grid-area: proyecto;
+            justify-items: center;
+            align-items: center;
+            display: grid;
+            grid-template-areas:"imgP1 imgP2 imgP3"
+                                "imgP4 imgP5 imgP6"
+                                "imgP7 imgP8 imgP9";
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-top: 100px;
+            width: 100vw; 
+        }
+        
+        .proyecto__img{
+            height:10vh;
+            margin: 5px;    
+        }
+    
+        .proyectoMax{
+            grid-area: proyectoMax;
+            justify-self: center;
+            width: 95vw;
+        }
+        
+        .proyectoMax__img{
+            padding-top: 30px;
+            height:30vh; 
+            padding-left: 95px;
+        }
+
 
     .us{
         display: grid;

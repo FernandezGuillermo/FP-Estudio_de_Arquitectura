@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
     <!--CSS-->
     <link rel="stylesheet" href="../css/style.css">
     <!--FONTS-->
@@ -16,15 +18,33 @@
 </head>
 <body>
     <header>
-        <nav> <!--BARRA DE NAVEGACION-->
-            <ul class="nav__list">
-                <li class="nav__list__item"><a href="../index.html">Inicio</a></li>
-                <li class="nav__list__item"><a href="obras.html">Obras</a></li>
-                <li class="nav__list__item"><a href="proyectos.html">Proyectos</a></li>
-                <li class="nav__list__item"><a href="contacto.html">Contacto</a></li>
-                <li class="nav__list__item"><a href="sobre-nosotros.html">Sobre Nosotros</a></li>                
-            </ul>         
-            </nav>
+        <nav class="navbar navbar-expand-lg bg-oscuro"> <!--BARRA DE NAVEGACION-->
+            <div class="container-fluid mt-2">
+            <a class="navbar-brand" href="../index.html">FP Estudio de Arquitectura</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="obras.html">Obras</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="proyectos.html">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>          
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="project"> <!--GALERIA DE PROYECTOS-->
@@ -56,5 +76,7 @@
             <img src="../resources/news.png" alt="news" class="news__img">
             <h4 class="news__title">NEWS</h4>   
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,35 +3,6 @@
     padding: 0;
 }
 
-/* NAV */
-/* nav{
-    background-color: #212121;
-}
-
-nav a{
-    text-decoration: none; 
-    color: white;
-    transition: all 2s;
-}
-
-nav a:hover{
-    color: aquamarine;
-}
-.nav__list{  
-    padding-top: 5px;
-    padding-right: 5px;
-    display: flex;    
-    justify-content:end;  
-}
-
-
-.nav__list__item{ 
-    list-style: none; 
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin: 15px;
-} */
-
 .navbar-brand{
     font-size: 20px;
     transition: all 2s;
@@ -290,20 +261,9 @@ footer{
     background-color: aquamarine;
 }
 
-/* .form{
-    display: grid;
-    grid-template-areas: "formulario ubicacion"
-                        "formulario ubicacion";
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;   
+.hrow{
+    height: 80vh;
 }
-
-.formulario{
-    grid-area: formulario;
-    justify-self: center;
-    align-self: center;    
-    width: 30vw;
-} */
 
 .btn{
     background-color: white;
@@ -314,17 +274,10 @@ footer{
     background-color: aquamarine;
 }
 
-/* .ubicacion{ 
-    grid-area: ubicacion;
-    justify-self: center;
-    align-self: center;
-    padding-top: 100px;
-}
-
 .ubicacion__maps{
     height: 500px;
     width: 500px;
-} */
+} 
 
 /* SOBRE NOSOTROS */
 .us{
@@ -400,8 +353,8 @@ footer{
     }
 
     .portada__img{ 
-        padding-top: 200px; 
-        height: 150px;   
+        padding-top: 100px; 
+        height: 35vh;   
     }
 
     footer{
@@ -525,58 +478,37 @@ footer{
         padding: 5px;
     }
 
-    /* .form{
-        padding-top: 90px;
-        grid-template-areas: "formulario"
-                            "ubicacion";
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr;   
+    .hrow{
+        height: 5vh;
+        padding-top: 20px;
     }
 
-    .formulario__input{
-        justify-self: center;
-        align-self: center;
-        margin: 2px;
-    }
-
-    .formulario__input__msj{
-        justify-self: center;
-        align-self: center;
-        height: 30px;
-        width: 80vw;
-        margin: 2px;
-    } */
-
-/*     .ubicacion{ 
+    .ubicacion{ 
         margin-top: 5px;
+        margin-bottom: 10px;
         padding-top: 10px;
     }
     
     .ubicacion__maps{
-        height: 150px;
-        width: 80vw;
+        height: 100px;
+        width: 95vw;
     }
-} */
+} 
 
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
-    header{
-        height: auto;
-    }
-    
-    .nav__list__item{
-        flex-direction: column;
-        font-size: 15px;
-        margin: 10px;
+
+    .navbar{
+        height: 20vh;
     }
     
     main{
-        height: 70vh; 
+        height: 80vh; 
     }
 
-    .portada__img{ 
-        padding-top: 200px; 
-        height: 300px;   
+    .portada__img{
+        align-self: center; 
+        height: 35vh;   
     }
 
     footer{

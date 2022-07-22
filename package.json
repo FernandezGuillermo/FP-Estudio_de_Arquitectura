@@ -1,0 +1,23 @@
+{
+  "name": "fp_estudio_de_arquitectura",
+  "version": "1.0.0",
+  "description": "<h1>FP Estudio de Arquitectura</h1>\r <p>Este sitio es para un estudio de arquitectura</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernandezGuillermo/FP-Estudio_de_Arquitectura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernandezGuillermo/FP-Estudio_de_Arquitectura/issues"
+  },
+  "homepage": "https://github.com/FernandezGuillermo/FP-Estudio_de_Arquitectura#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

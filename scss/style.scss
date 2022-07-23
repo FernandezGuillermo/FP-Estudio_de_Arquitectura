@@ -1,3 +1,5 @@
+@import "mediaquerie";
+
 *{ /* RESET CSS */
     margin: 0;
     padding: 0;
@@ -9,7 +11,7 @@
 }
 
 .navbar-brand:hover{
-    color: aquamarine;
+    color: antiquewhite;
 }
 
 .bg-oscuro{
@@ -48,12 +50,11 @@ main{
     height: 665px;
     display: flex;
     justify-content: center;
-}
 
-
-.portada__img{  
-    padding-top: 150px; 
-    height: 600px;   
+    &__img{  
+        padding-top: 150px; 
+        height: 600px;   
+    }
 }
 
 /* FOOTER */
@@ -71,17 +72,17 @@ footer{
     align-self: center;
     padding-right: 20px;
     grid-area: news;
-}
 
-.news__img{
-    padding-top: 5px;
-    height: 80px;    
-}
+    &__img{
+        padding-top: 5px;
+        height: 80px;    
+    }
 
-.news__title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px; 
-    color: white;  
+    &__title{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px; 
+        color: white;  
+    }
 }
 
 .redes{
@@ -89,16 +90,16 @@ footer{
     justify-self: flex-start;
     align-self: center;
     padding-left: 20px;
-}
 
-.redes__img{
-    padding-top: 20px;
-    height: 75px;
-    transition: all 2s;
-}
+    &__img{
+        padding-top: 20px;
+        height: 75px;
+        transition: all 2s;
 
-.redes__img:hover{
-    transform: rotate(45deg);
+        &:hover{
+            transform: rotate(45deg);
+        }
+    }
 }
 
 .copyright{
@@ -106,13 +107,12 @@ footer{
     justify-self: center;
     align-self: end;
     margin-bottom: 15px;
-}
 
-.copyright__p{
-    font-family: 'Roboto', sans-serif; 
-    color: white;  
+    &__p{
+        font-family: 'Roboto', sans-serif; 
+        color: white;  
+    }
 }
-
 
 /* OBRAS */
 .build{
@@ -135,52 +135,52 @@ footer{
     grid-template-rows: 1fr 1fr 1fr ;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 150px;
-    width: 30vw; 
-}
-
-.obras__img{
-    height:15vh;
-    margin: 5px;  
-    transition: all 2s;  
-}
-
-.obras__img:hover{
-    opacity: 0.1;
-}
-
-.img1{
-    grid-area: img1;
-}
-
-.img2{
-    grid-area: img2;
-}
-
-.img3{
-    grid-area: img3;
-}
-
-.img4{
-    grid-area: img4;
-}
-
-.img5{
-    grid-area: img5;
-}
-
-.img6{
-    grid-area: img6;
+    width: 30vw;
+    
+    &__img{
+        height:15vh;
+        margin: 5px;  
+        transition: all 2s; 
+        
+        &:hover{
+            opacity: 0.1;
+        }
+    }
+    
+    .img1{
+        grid-area: img1;
+    }
+    
+    .img2{
+        grid-area: img2;
+    }
+    
+    .img3{
+        grid-area: img3;
+    }
+    
+    .img4{
+        grid-area: img4;
+    }
+    
+    .img5{
+        grid-area: img5;
+    }
+    
+    .img6{
+        grid-area: img6;
+    }
 }
 
 .obrasMax{
     grid-area: obrasMax;
     height: 60vh;
     width: 45vw;
-}
 
-.obraMax__img{
-    padding-top: 150px;
-    height: 63vh; 
+    &__img{
+        padding-top: 150px;
+        height: 63vh; 
+    }
 }
 
 /* PROYECTOS */
@@ -331,403 +331,4 @@ footer{
     font-size: 20px;
     color: white;
     margin-left: 500px;
-}
-
-/* MEDIA QUERIE CELULAR*/
-@media (min-width: 320px) and (max-width: 575px) {
-    
-    .nav__list{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav__list__item{
-        flex-direction: column;
-        font-size: 10px;
-        margin: 10px;
-    }
-    
-    main{
-        height: 70vh; 
-    }
-
-    .portada__img{ 
-        padding-top: 100px; 
-        height: 35vh;   
-    }
-
-    footer{
-        display: grid;
-        grid-template-areas: "redes news" 
-                            "copyright copyright";
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        height: 25vh;
-    }
-
-    .redes{
-        justify-self: center;
-    }
-
-    .redes__img{
-        height: 60px;
-    }
-
-    .news{
-        justify-self: center;
-    }
-
-    .copyright{
-        align-self: center;
-    }
-
-    .copyright__p{
-        font-size: 12px;
-    }
-
-    /* OBRAS */
-    .build{
-        display: grid;
-        justify-items: center;
-        grid-template-areas:"obras" 
-                            "obrasMax";
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        height: 60vh;
-        width: 100vw;
-    }
-    
-    .obras{  
-        grid-area: obras;
-        justify-items: center;
-        align-items: center;
-        display: grid;
-        grid-template-areas:"img1 img2 img3"
-                            "img4 img5 img6"
-                            "img7 img8 img9";
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 150px;
-        width: 100vw; 
-    }
-    
-    .obras__img{
-        height:7vh;
-        margin: 5px;    
-    }
-
-    .obrasMax{
-        grid-area: obrasMax;
-        justify-self: center;
-        width: 95vw;
-    }
-    
-    .obraMax__img{
-        padding-top: 30px;
-        height:20vh; 
-    }
-
-    /* PROYECTOS */
-    .project{
-        display: grid;
-        justify-items: center;
-        grid-template-areas:"proyecto" 
-                            "proyectoMax";
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        height: 60vh;
-        width: 100vw;
-    }
-    
-    .proyecto{  
-        grid-area: proyecto;
-        justify-items: center;
-        align-items: center;
-        display: grid;
-        grid-template-areas:"imgP1 imgP2 imgP3"
-                            "imgP4 imgP5 imgP6"
-                            "imgP7 imgP8 imgP9";
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 150px;
-        width: 100vw; 
-    }
-    
-    .proyecto__img{
-        height:7vh;
-        margin: 5px;    
-    }
-
-    .proyectoMax{
-        grid-area: proyectoMax;
-        justify-self: center;
-        width: 95vw;
-    }
-    
-    .proyectoMax__img{
-        padding-top: 30px;
-        height:20vh; 
-    }
-
-    /*SOBRE NOSOTROS*/
-    .us{
-        display: grid;
-        grid-template-areas:"nosotros"
-                            "staff";
-        grid-template-rows: 1fr 1fr ;
-        grid-template-columns: 1fr;
-        width: 100vw;
-        height: 30vh;
-        padding-top: 30px;
-    }
-
-    .nosotros{
-        width: 100vw;
-    }
-    
-    .nosotros__title{
-        justify-self: flex-start;
-        align-self: flex-start;
-        font-size: 10px;
-        margin-bottom: 2px;
-        padding: 2px;
-    }
-
-    .nosotros__text{
-        margin: 2px;
-        justify-self: center;
-        align-self: flex-start;
-        font-size: 10px;
-        padding: 20px;
-    }
-
-    .staff{
-        width: 100vw;
-        margin-top: 5px;
-    }
-
-    .staff__img{
-        margin-top: 2px;
-        margin-left: 40px;
-        height: 60px;
-        padding-left: 5px;
-    }
-
-    .staff__text{
-        justify-self: flex-start;
-        margin-left: 150px;
-        font-size: 10px;
-        padding: 5px;
-    }
-
-    .hrow{
-        height: 5vh;
-        padding-top: 20px;
-    }
-
-    .ubicacion{ 
-        margin-top: 5px;
-        margin-bottom: 10px;
-        padding-top: 10px;
-    }
-    
-    .ubicacion__maps{
-        height: 100px;
-        width: 95vw;
-    }
-} 
-
-/* MEDIA QUERIE TABLET*/
-@media (min-width: 576px) and (max-width: 992px) {
-
-    main{
-        height: 80vh; 
-    }
-
-    .portada__img{
-        align-self: center; 
-        height: 35vh;   
-    }
-
-    footer{
-        display: grid;
-        grid-template-areas: "redes news" 
-                            "copyright copyright";
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        height: 15vh;
-    }
-
-    .redes{
-        justify-self: flex-start;
-    }
-
-    .redes__img{
-        height: 60px;
-    }
-
-    .news{
-        justify-self: flex-end;
-    }
-
-    .copyright{
-        align-self: center;
-    }
-
-    .copyright__p{
-        font-size: 12px;
-    }
-
-        /* OBRAS */
-        .build{
-            display: grid;
-            justify-items: center;
-            grid-template-areas:"obras" 
-                                "obrasMax";
-            grid-template-rows: 1fr;
-            grid-template-columns: 1fr;
-            height: 60vh;
-            width: 100vw;
-        }
-        
-        .obras{  
-            grid-area: obras;
-            justify-items: center;
-            align-items: center;
-            display: grid;
-            grid-template-areas:"img1 img2 img3"
-                                "img4 img5 img6"
-                                "img7 img8 img9";
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding-top: 150px;
-            width: 100vw; 
-        }
-        
-        .obras__img{
-            height:10vh;
-            margin: 5px;    
-        }
-    
-        .obrasMax{
-            grid-area: obrasMax;
-            justify-self: center;
-            width: 95vw;
-        }
-        
-        .obraMax__img{
-            padding-top: 30px;
-            height:30vh;
-            padding-left: 95px; 
-        }
-    
-        /* PROYECTOS */
-        .project{
-            display: grid;
-            justify-items: center;
-            grid-template-areas:"proyecto" 
-                                "proyectoMax";
-            grid-template-rows: 1fr;
-            grid-template-columns: 1fr;
-            height: 60vh;
-            width: 100vw;
-        }
-        
-        .proyecto{  
-            grid-area: proyecto;
-            justify-items: center;
-            align-items: center;
-            display: grid;
-            grid-template-areas:"imgP1 imgP2 imgP3"
-                                "imgP4 imgP5 imgP6"
-                                "imgP7 imgP8 imgP9";
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding-top: 100px;
-            width: 100vw; 
-        }
-        
-        .proyecto__img{
-            height:10vh;
-            margin: 5px;    
-        }
-    
-        .proyectoMax{
-            grid-area: proyectoMax;
-            justify-self: center;
-            width: 95vw;
-        }
-        
-        .proyectoMax__img{
-            padding-top: 30px;
-            height:30vh; 
-            padding-left: 95px;
-        }
-
-
-    .us{
-        display: grid;
-        grid-template-areas:"nosotros"
-                            "staff";
-        grid-template-rows: 1fr 1fr ;
-        grid-template-columns: 1fr;
-        width: 100vw;
-        height: 20vh;
-        padding-top: 30px;
-    }
-
-    .nosotros{
-        width: 100vw;
-    }
-    
-    .nosotros__title{
-        justify-self: flex-start;
-        align-self: flex-start;
-        font-size: 20px;
-        margin-bottom: 2px;
-        padding: 2px;
-    }
-
-    .nosotros__text{
-        margin: 2px;
-        justify-self: flex-start;
-        align-self: flex-start;
-        font-size: 15px;
-        padding: 20px;
-    }
-
-    .staff{
-        width: 100vw;
-        margin-top: 5px;
-    }
-
-    .staff__img{
-        margin-top: 2px;
-        margin-left: 40px;
-        height: 100px;
-        padding-left: 5px;
-    }
-
-    .staff__text{
-        justify-self: flex-start;
-        margin-left: 150px;
-        font-size: 20px;
-        padding: 5px;
-    }
-
-    .hrow{
-        padding-top: 50px;
-        height: 60vh;
-    }
-
-    .ubicacion{ 
-        margin-top: 10px;
-        padding-top: 10px;
-    }
-    
-    .ubicacion__maps{
-        height: 200px;
-        width: 97vw;
-    }
 }

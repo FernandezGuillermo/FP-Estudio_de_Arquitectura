@@ -123,64 +123,65 @@ footer{
     grid-template-columns: 1fr 1fr;
     height: 60vh;
     width: 100vw;
-}
 
-.obras{  
-    grid-area: obras;
-    align-items: center;
-    display: grid;
-    grid-template-areas:"img1 img2 img3"
-                        "img4 img5 img6"
-                        "img7 img8 img9";
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 150px;
-    width: 30vw;
-    
-    &__img{
-        height:15vh;
-        margin: 5px;  
-        transition: all 2s; 
+    .obras{  
+        grid-area: obras;
+        align-items: center;
+        display: grid;
+        grid-template-areas:"img1 img2 img3"
+                            "img4 img5 img6"
+                            "img7 img8 img9";
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 150px;
+        width: 30vw;
         
-        &:hover{
-            opacity: 0.1;
+        &__img{
+            height:15vh;
+            margin: 5px;  
+            transition: all 2s; 
+            
+            &:hover{
+                opacity: 0.1;
+            }
+        }
+        
+        .img1{
+            grid-area: img1;
+        }
+        
+        .img2{
+            grid-area: img2;
+        }
+        
+        .img3{
+            grid-area: img3;
+        }
+        
+        .img4{
+            grid-area: img4;
+        }
+        
+        .img5{
+            grid-area: img5;
+        }
+        
+        .img6{
+            grid-area: img6;
         }
     }
     
-    .img1{
-        grid-area: img1;
-    }
+    .obrasMax{
+        grid-area: obrasMax;
+        height: 60vh;
+        width: 45vw;
     
-    .img2{
-        grid-area: img2;
+        &__img{
+            padding-top: 150px;
+            height: 63vh; 
+        }
     }
-    
-    .img3{
-        grid-area: img3;
-    }
-    
-    .img4{
-        grid-area: img4;
-    }
-    
-    .img5{
-        grid-area: img5;
-    }
-    
-    .img6{
-        grid-area: img6;
-    }
-}
 
-.obrasMax{
-    grid-area: obrasMax;
-    height: 60vh;
-    width: 45vw;
-
-    &__img{
-        padding-top: 150px;
-        height: 63vh; 
-    }
 }
 
 /* PROYECTOS */
@@ -192,92 +193,99 @@ footer{
     grid-template-columns: 1fr 1fr;
     height: 60vh;
     width: 100vw;
-}
 
-.proyecto{   
-    grid-area: proyecto;
-    align-items: center;
-    display: grid;
-    grid-template-areas:"imgP1 imgP2 imgP3"
-                        "imgP4 imgP5 imgP6"
-                        "imgP7 imgP8 imgP9";
-    grid-template-rows: 1fr 1fr 1fr ;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 150px;
-    width: 30vw; 
-}
-
-.proyecto__img{
-    height:15vh;
-    margin: 5px; 
-    transition: all 2s;   
-}
-
-.proyecto__img:hover{
-    opacity: 0.2;
-}
-
-.imgP1{
-    grid-area: imgP1;
-}
-
-.imgP2{
-    grid-area: imgP2;
-}
-
-.imgP3{
-    grid-area: imgP3;
-}
-
-.imgP4{
-    grid-area: imgP4;
-}
-
-.imgP5{
-    grid-area: imgP5;
-}
-
-.imgP6{
-    grid-area: imgP6;
-}
-
-.proyectoMax{
-    grid-area: proyectoMax;
-    height: 60vh;
-    width: 45vw;
-}
-
-.proyectoMax__img{
-    padding-top: 150px;
-    height: 63vh; 
+    .proyecto{   
+        grid-area: proyecto;
+        align-items: center;
+        display: grid;
+        grid-template-areas:"imgP1 imgP2 imgP3"
+                            "imgP4 imgP5 imgP6"
+                            "imgP7 imgP8 imgP9";
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 150px;
+        width: 30vw; 
+        
+        &__img{
+            height:15vh;
+            margin: 5px; 
+            transition: all 2s;   
+        
+            &:hover{
+                opacity: 0.2;
+            }
+        }
+    }
+    
+    .imgP1{
+        grid-area: imgP1;
+    }
+    
+    .imgP2{
+        grid-area: imgP2;
+    }
+    
+    .imgP3{
+        grid-area: imgP3;
+    }
+    
+    .imgP4{
+        grid-area: imgP4;
+    }
+    
+    .imgP5{
+        grid-area: imgP5;
+    }
+    
+    .imgP6{
+        grid-area: imgP6;
+    }
+    
+    .proyectoMax{
+        grid-area: proyectoMax;
+        height: 60vh;
+        width: 45vw;
+    
+        &__img{
+            padding-top: 150px;
+            height: 63vh; 
+        }
+    }
 }
 
 /* CONTACTO */
+.form{
+    &-control{
+        transition: all 2s;
 
-.form-control{
-    transition: all 2s;
-}
-.form-control:focus{
-    background-color: aquamarine;
+        &:focus{
+            background-color: aquamarine;
+        }
+    }
+
+    .hrow{
+        height: 80vh;
+    }
+
+    .btn{
+        background-color: white;
+        transition: all 2s;
+    
+        
+
+    &:hover{
+        background-color: aquamarine;
+    }
+    
+    }
 }
 
-.hrow{
-    height: 80vh;
+.ubicacion{
+    &__maps{
+        height: 500px;
+        width: 500px;
+    }
 }
-
-.btn{
-    background-color: white;
-    transition: all 2s;
-}
-
-.btn:hover{
-    background-color: aquamarine;
-}
-
-.ubicacion__maps{
-    height: 500px;
-    width: 500px;
-} 
 
 /* SOBRE NOSOTROS */
 .us{
@@ -286,28 +294,28 @@ footer{
                         "nosotros staff";
     grid-template-rows: 1fr 1fr ;
     grid-template-columns: 2fr 1fr;
-}
 
-.nosotros{
-    grid-area: nosotros;
-    justify-self: center;
-    align-self: center;
-    background-color: #212121;
-    width: 40vw;    
-}
-
-.nosotros__title{
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin-left: 40px;
-    padding: 15px;
-}
-
-.nosotros__text{
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    padding: 50px;
+    .nosotros{
+        grid-area: nosotros;
+        justify-self: center;
+        align-self: center;
+        background-color: #212121;
+        width: 40vw;    
+    
+        &__title{
+            font-size: 50px;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            margin-left: 40px;
+            padding: 15px;
+        }
+        
+        &__text{
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            padding: 50px;
+        }
+    }
 }
 
 .staff{
@@ -317,18 +325,18 @@ footer{
     background-color: #212121; 
     margin-top: 100px;   
     width: 900px; 
-}
 
-.staff__img{
-    height: 200px;
-    margin-top: 50px;
-    margin-left: 50px;
-    padding-left: 200px;
-}
-
-.staff__text{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    color: white;
-    margin-left: 500px;
+    &__img{
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding-left: 200px;
+    }
+    
+    &__text{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
+        margin-left: 500px;
+    }
 }

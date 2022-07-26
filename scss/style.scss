@@ -56,22 +56,13 @@ main{
 
 /* FOOTER */
 footer{
-    display: grid;
-    grid-template-areas: "redes copyright news";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 2fr 1fr;
     height: 13vh;
     background-color: $color-principal;
 }
 
 .news{ 
-    justify-self: end;
-    align-self: center;
-    padding-right: 20px;
-    grid-area: news;
 
     &__img{
-        padding-top: 5px;
         height: 80px;    
     }
 
@@ -83,14 +74,9 @@ footer{
 }
 
 .redes{
-    grid-area: redes;
-    justify-self: flex-start;
-    align-self: center;
-    padding-left: 20px;
 
     &__img{
-        padding-top: 20px;
-        height: 75px;
+        height: 63px;
         transition: all 2s;
 
         &:hover{
@@ -100,10 +86,6 @@ footer{
 }
 
 .copyright{
-    grid-area: copyright;    
-    justify-self: center;
-    align-self: end;
-    margin-bottom: 15px;
 
     &__p{
         font-family: 'Roboto', sans-serif; 
@@ -273,7 +255,7 @@ footer{
     &:hover{
         background-color: $color-logo;
     }
-    
+
     }
 }
 

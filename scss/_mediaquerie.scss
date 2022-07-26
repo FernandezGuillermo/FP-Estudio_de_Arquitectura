@@ -16,11 +16,14 @@
     main{
         height: 70vh; 
     }
-
-    .portada__img{ 
-        padding-top: 100px; 
-        height: 35vh;   
+    
+    .portada{
+        &__img{ 
+            padding-top: 100px; 
+            height: 15vh;   
+        }
     }
+    
 
     footer{
         display: grid;

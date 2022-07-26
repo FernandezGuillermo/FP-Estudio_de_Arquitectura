@@ -33,11 +33,12 @@
 
     .redes{
         justify-self: center;
+    
+        &__img{
+            height: 60px;
+        }
     }
 
-    .redes__img{
-        height: 60px;
-    }
 
     .news{
         justify-self: center;
@@ -45,10 +46,10 @@
 
     .copyright{
         align-self: center;
-    }
-
-    .copyright__p{
-        font-size: 12px;
+    
+        &__p{
+            font-size: 12px;
+        }
     }
 
     /* OBRAS */
@@ -61,36 +62,36 @@
         grid-template-columns: 1fr;
         height: 60vh;
         width: 100vw;
-    }
     
-    .obras{  
-        grid-area: obras;
-        justify-items: center;
-        align-items: center;
-        display: grid;
-        grid-template-areas:"img1 img2 img3"
-                            "img4 img5 img6"
-                            "img7 img8 img9";
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 150px;
-        width: 100vw; 
-    }
+        .obras{  
+            grid-area: obras;
+            justify-items: center;
+            align-items: center;
+            display: grid;
+            grid-template-areas:"img1 img2 img3"
+                                "img4 img5 img6"
+                                "img7 img8 img9";
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-top: 150px;
+            width: 100vw; 
+        
+            &__img{
+                height:7vh;
+                margin: 5px;    
+            }
+        }
     
-    .obras__img{
-        height:7vh;
-        margin: 5px;    
-    }
-
-    .obrasMax{
-        grid-area: obrasMax;
-        justify-self: center;
-        width: 95vw;
-    }
+        .obrasMax{
+            grid-area: obrasMax;
+            justify-self: center;
+            width: 95vw;
     
-    .obraMax__img{
-        padding-top: 30px;
-        height:20vh; 
+            &__img{
+                padding-top: 30px;
+                height:20vh; 
+            }
+        }
     }
 
     /* PROYECTOS */
@@ -103,36 +104,37 @@
         grid-template-columns: 1fr;
         height: 60vh;
         width: 100vw;
-    }
     
-    .proyecto{  
-        grid-area: proyecto;
-        justify-items: center;
-        align-items: center;
-        display: grid;
-        grid-template-areas:"imgP1 imgP2 imgP3"
-                            "imgP4 imgP5 imgP6"
-                            "imgP7 imgP8 imgP9";
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 150px;
-        width: 100vw; 
-    }
+        
+        .proyecto{  
+            grid-area: proyecto;
+            justify-items: center;
+            align-items: center;
+            display: grid;
+            grid-template-areas:"imgP1 imgP2 imgP3"
+                                "imgP4 imgP5 imgP6"
+                                "imgP7 imgP8 imgP9";
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding-top: 150px;
+            width: 100vw; 
+        
+            &__img{
+                height:7vh;
+                margin: 5px;    
+            }
+        }
     
-    .proyecto__img{
-        height:7vh;
-        margin: 5px;    
-    }
-
-    .proyectoMax{
-        grid-area: proyectoMax;
-        justify-self: center;
-        width: 95vw;
-    }
-    
-    .proyectoMax__img{
-        padding-top: 30px;
-        height:20vh; 
+        .proyectoMax{
+            grid-area: proyectoMax;
+            justify-self: center;
+            width: 95vw;
+        
+            &__img{
+                padding-top: 30px;
+                height:20vh; 
+            }
+        }
     }
 
     /*SOBRE NOSOTROS*/
@@ -145,45 +147,46 @@
         width: 100vw;
         height: 30vh;
         padding-top: 30px;
-    }
-
-    .nosotros{
-        width: 100vw;
-    }
     
-    .nosotros__title{
-        justify-self: flex-start;
-        align-self: flex-start;
-        font-size: 10px;
-        margin-bottom: 2px;
-        padding: 2px;
-    }
-
-    .nosotros__text{
-        margin: 2px;
-        justify-self: center;
-        align-self: flex-start;
-        font-size: 10px;
-        padding: 20px;
-    }
-
-    .staff{
-        width: 100vw;
-        margin-top: 5px;
-    }
-
-    .staff__img{
-        margin-top: 2px;
-        margin-left: 40px;
-        height: 60px;
-        padding-left: 5px;
-    }
-
-    .staff__text{
-        justify-self: flex-start;
-        margin-left: 150px;
-        font-size: 10px;
-        padding: 5px;
+        .nosotros{
+            width: 100vw;
+        
+            &__title{
+                justify-self: flex-start;
+                align-self: flex-start;
+                font-size: 10px;
+                margin-bottom: 2px;
+                padding: 2px;
+            }
+        
+            &__text{
+                margin: 2px;
+                justify-self: center;
+                align-self: flex-start;
+                font-size: 10px;
+                padding: 20px;
+            }
+        
+        }
+    
+        .staff{
+            width: 100vw;
+            margin-top: 5px;
+        
+            &__img{
+                margin-top: 2px;
+                margin-left: 40px;
+                height: 60px;
+                padding-left: 5px;
+            }
+        
+            &__text{
+                justify-self: flex-start;
+                margin-left: 150px;
+                font-size: 10px;
+                padding: 5px;
+            }
+        }
     }
 
     .hrow{
@@ -195,11 +198,11 @@
         margin-top: 5px;
         margin-bottom: 10px;
         padding-top: 10px;
-    }
     
-    .ubicacion__maps{
-        height: 100px;
-        width: 95vw;
+        &__maps{
+            height: 100px;
+            width: 95vw;
+        }
     }
 } 
 
@@ -226,10 +229,11 @@
 
     .redes{
         justify-self: flex-start;
-    }
-
-    .redes__img{
-        height: 60px;
+    
+        &__img{
+            height: 60px;
+        }
+    
     }
 
     .news{
@@ -238,10 +242,10 @@
 
     .copyright{
         align-self: center;
-    }
-
-    .copyright__p{
-        font-size: 12px;
+    
+        &__p{
+            font-size: 12px;
+        }
     }
 
         /* OBRAS */
@@ -268,23 +272,23 @@
             grid-template-columns: 1fr 1fr 1fr;
             padding-top: 150px;
             width: 100vw; 
-        }
         
-        .obras__img{
-            height:10vh;
-            margin: 5px;    
+            &__img{
+                height:10vh;
+                margin: 5px;    
+            }
         }
     
         .obrasMax{
             grid-area: obrasMax;
             justify-self: center;
             width: 95vw;
-        }
-        
-        .obraMax__img{
-            padding-top: 30px;
-            height:30vh;
-            padding-left: 95px; 
+
+            &__img{
+                padding-top: 30px;
+                height:30vh;
+                padding-left: 95px; 
+            }
         }
     
         /* PROYECTOS */
@@ -311,25 +315,24 @@
             grid-template-columns: 1fr 1fr 1fr;
             padding-top: 100px;
             width: 100vw; 
+        
+            &__img{
+                height:10vh;
+                margin: 5px;    
+            }
         }
         
-        .proyecto__img{
-            height:10vh;
-            margin: 5px;    
-        }
-    
         .proyectoMax{
             grid-area: proyectoMax;
             justify-self: center;
             width: 95vw;
-        }
         
-        .proyectoMax__img{
-            padding-top: 30px;
-            height:30vh; 
-            padding-left: 95px;
+            &__img{
+                padding-top: 30px;
+                height:30vh; 
+                padding-left: 95px;
+            }
         }
-
 
     .us{
         display: grid;
@@ -340,45 +343,45 @@
         width: 100vw;
         height: 20vh;
         padding-top: 30px;
-    }
-
-    .nosotros{
-        width: 100vw;
-    }
     
-    .nosotros__title{
-        justify-self: flex-start;
-        align-self: flex-start;
-        font-size: 20px;
-        margin-bottom: 2px;
-        padding: 2px;
-    }
-
-    .nosotros__text{
-        margin: 2px;
-        justify-self: flex-start;
-        align-self: flex-start;
-        font-size: 15px;
-        padding: 20px;
-    }
-
-    .staff{
-        width: 100vw;
-        margin-top: 5px;
-    }
-
-    .staff__img{
-        margin-top: 2px;
-        margin-left: 40px;
-        height: 100px;
-        padding-left: 5px;
-    }
-
-    .staff__text{
-        justify-self: flex-start;
-        margin-left: 150px;
-        font-size: 20px;
-        padding: 5px;
+        .nosotros{
+            width: 100vw;
+        
+            &__title{
+                justify-self: flex-start;
+                align-self: flex-start;
+                font-size: 20px;
+                margin-bottom: 2px;
+                padding: 2px;
+            }
+        
+            &__text{
+                margin: 2px;
+                justify-self: flex-start;
+                align-self: flex-start;
+                font-size: 15px;
+                padding: 20px;
+            }
+        }
+        
+        .staff{
+            width: 100vw;
+            margin-top: 5px;
+        
+            &__img{
+                margin-top: 2px;
+                margin-left: 40px;
+                height: 100px;
+                padding-left: 5px;
+            }
+        
+            &__text{
+                justify-self: flex-start;
+                margin-left: 150px;
+                font-size: 20px;
+                padding: 5px;
+            }
+        }
     }
 
     .hrow{
@@ -389,10 +392,10 @@
     .ubicacion{ 
         margin-top: 10px;
         padding-top: 10px;
-    }
-    
-    .ubicacion__maps{
-        height: 200px;
-        width: 97vw;
+
+        &__maps{
+            height: 200px;
+            width: 97vw;
+        }
     }
 }

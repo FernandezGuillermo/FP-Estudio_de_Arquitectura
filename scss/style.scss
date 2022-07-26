@@ -313,27 +313,29 @@ footer{
             padding: 50px;
         }
     }
-}
 
-.staff{
-    grid-area: staff;
-    justify-self: center;
-    align-self: center;  
-    background-color: $color-principal; 
-    margin-top: 100px;   
-    width: 900px; 
-
-    &__img{
-        height: 200px;
-        margin-top: 50px;
-        margin-left: 50px;
-        padding-left: 200px;
-    }
+    .staff{
+        grid-area: staff;
+        justify-self: center;
+        align-self: center;  
+        background-color: $color-principal; 
+        margin-top: 100px;   
+        width: 900px; 
     
-    &__text{
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        color: $color-text;
-        margin-left: 500px;
+        &__img{
+            height: 200px;
+            margin-top: 50px;
+            margin-left: 50px;
+            padding-left: 200px;
+        }
+        
+        &__text{
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: $color-text;
+            margin-left: 500px;
+        }
     }
 }
+
+

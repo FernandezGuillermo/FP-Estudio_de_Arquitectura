@@ -1,3 +1,4 @@
+@import "variables";
 @import "mediaquerie";
 
 *{ /* RESET CSS */
@@ -6,33 +7,29 @@
 }
 
 .navbar-brand{
+    text-decoration: none; 
+    color: $color-text;
     font-size: 20px;
     transition: all 2s;
-}
 
-.navbar-brand:hover{
-    color: aquamarine;
+    &:hover{
+        color: $color-logo;
+    }
 }
 
 .bg-oscuro{
-    background-color: #212121;
-}
-
-.navbar-brand{
-    text-decoration: none; 
-    color: white;
-    transition: all 2s;
+    background-color: $color-principal;
 }
 
 .nav-link{
     text-decoration: none; 
-    color: white;
+    color: $color-text;
     transition: all 2s;
-    font-size: 20px;
-}
+    font-size: $texto-nav-size;
 
-.nav-link:hover{
-    color: aquamarine;
+    &:hover{
+        color: $color-logo;
+    }
 }
 
 .navbar-toggler{
@@ -42,7 +39,7 @@
 /* MAIN */
 main{
     height: 80vh;
-    background-color: #212121;  
+    background-color: $color-principal;  
 }
 
 /* INDEX PORTADA */
@@ -64,7 +61,7 @@ footer{
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 2fr 1fr;
     height: 13vh;
-    background-color: #212121;
+    background-color: $color-principal;
 }
 
 .news{ 
@@ -81,7 +78,7 @@ footer{
     &__title{
         font-family: 'Roboto', sans-serif;
         font-size: 20px; 
-        color: white;  
+        color: $color-text;  
     }
 }
 
@@ -110,7 +107,7 @@ footer{
 
     &__p{
         font-family: 'Roboto', sans-serif; 
-        color: white;  
+        color: $color-text;  
     }
 }
 
@@ -259,7 +256,7 @@ footer{
         transition: all 2s;
 
         &:focus{
-            background-color: aquamarine;
+            background-color: $color-logo;
         }
     }
 
@@ -274,7 +271,7 @@ footer{
         
 
     &:hover{
-        background-color: aquamarine;
+        background-color: $color-logo;
     }
     
     }
@@ -299,20 +296,20 @@ footer{
         grid-area: nosotros;
         justify-self: center;
         align-self: center;
-        background-color: #212121;
+        background-color: $color-principal;
         width: 40vw;    
     
         &__title{
             font-size: 50px;
             font-family: 'Roboto', sans-serif;
-            color: white;
+            color: $color-text;
             margin-left: 40px;
             padding: 15px;
         }
         
         &__text{
             font-family: 'Roboto', sans-serif;
-            color: white;
+            color: $color-text;
             padding: 50px;
         }
     }
@@ -322,7 +319,7 @@ footer{
     grid-area: staff;
     justify-self: center;
     align-self: center;  
-    background-color: #212121; 
+    background-color: $color-principal; 
     margin-top: 100px;   
     width: 900px; 
 
@@ -336,7 +333,7 @@ footer{
     &__text{
         font-family: 'Roboto', sans-serif;
         font-size: 20px;
-        color: white;
+        color: $color-text;
         margin-left: 500px;
     }
 }

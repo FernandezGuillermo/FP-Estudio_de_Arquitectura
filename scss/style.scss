@@ -44,13 +44,11 @@ main{
 
 /* INDEX PORTADA */
 .portada{
-    height: 665px;
-    display: flex;
-    justify-content: center;
+    height: 80vh;
 
     &__img{  
         padding-top: 150px; 
-        height: 600px;   
+        height: 70vh;   
     }
 }
 
@@ -62,6 +60,8 @@ footer{
 
 .news{ 
 
+    height: 13vh;
+    
     &__img{
         height: 80px;    
     }

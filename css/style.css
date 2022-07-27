@@ -12,25 +12,20 @@
     margin: 10px; }
   main {
     height: 70vh; }
-  .portada__img {
-    padding-top: 100px;
-    height: 15vh; }
+  .portada {
+    height: 70vh; }
+    .portada__img {
+      max-height: 40vh; }
   footer {
-    display: grid;
-    grid-template-areas: "redes news"  "copyright copyright";
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    height: 25vh; }
-  .redes {
-    justify-self: center; }
-    .redes__img {
-      height: 60px; }
-  .news {
-    justify-self: center; }
-  .copyright {
-    align-self: center; }
-    .copyright__p {
-      font-size: 12px; }
+    height: 20vh; }
+  .redes__img {
+    max-height: 30px; }
+  .news__img {
+    max-height: 20px; }
+  .news__title {
+    font-size: 10px; }
+  .copyright__p {
+    font-size: 10px; }
   /* OBRAS */
   .build {
     display: grid;
@@ -139,26 +134,17 @@
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
   main {
-    height: 80vh; }
-  .portada__img {
-    align-self: center;
-    height: 35vh; }
+    height: 70vh; }
+  .portada {
+    height: 70vh; }
+    .portada__img {
+      max-height: 50vh; }
   footer {
-    display: grid;
-    grid-template-areas: "redes news"  "copyright copyright";
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    height: 15vh; }
-  .redes {
-    justify-self: flex-start; }
-    .redes__img {
-      height: 60px; }
-  .news {
-    justify-self: flex-end; }
-  .copyright {
-    align-self: center; }
-    .copyright__p {
-      font-size: 12px; }
+    height: 20vh; }
+  .redes__img {
+    height: 60px; }
+  .copyright__p {
+    font-size: 12px; }
   /* OBRAS */
   .build {
     display: grid;
@@ -298,25 +284,24 @@ main {
 
 /* INDEX PORTADA */
 .portada {
-  height: 665px;
-  display: flex;
-  justify-content: center; }
+  height: 80vh; }
   .portada__img {
     padding-top: 150px;
-    height: 600px; }
+    height: 70vh; }
 
 /* FOOTER */
 footer {
   height: 13vh;
   background-color: #212121; }
 
-.news__img {
-  height: 80px; }
-
-.news__title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  color: white; }
+.news {
+  height: 13vh; }
+  .news__img {
+    height: 80px; }
+  .news__title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white; }
 
 .redes__img {
   height: 63px;

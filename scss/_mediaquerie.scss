@@ -18,40 +18,40 @@
     }
     
     .portada{
+        height: 70vh;
         &__img{ 
-            padding-top: 100px; 
-            height: 15vh;   
+            max-height: 40vh;
         }
     }
     
 
     footer{
-        display: grid;
-        grid-template-areas: "redes news" 
-                            "copyright copyright";
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        height: 25vh;
+        height: 20vh;
     }
 
     .redes{
-        justify-self: center;
-    
+            
         &__img{
-            height: 60px;
+            max-height: 30px;
         }
     }
 
 
     .news{
-        justify-self: center;
+
+        &__img{
+            max-height: 20px;
+        }
+
+        &__title{
+            font-size: 10px;
+        }
     }
 
     .copyright{
-        align-self: center;
     
         &__p{
-            font-size: 12px;
+            font-size: 10px;
         }
     }
 
@@ -213,38 +213,32 @@
 @media (min-width: 576px) and (max-width: 992px) {
 
     main{
-        height: 80vh; 
+        height: 70vh; 
     }
 
-    .portada__img{
-        align-self: center; 
-        height: 35vh;   
+    .portada{
+        
+        height: 70vh;
+
+        &__img{
+            max-height: 50vh;
+        }
     }
+
 
     footer{
-        display: grid;
-        grid-template-areas: "redes news" 
-                            "copyright copyright";
-        grid-template-rows: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        height: 15vh;
+        height: 20vh;
     }
 
     .redes{
-        justify-self: flex-start;
-    
+
         &__img{
             height: 60px;
         }
     
     }
 
-    .news{
-        justify-self: flex-end;
-    }
-
     .copyright{
-        align-self: center;
     
         &__p{
             font-size: 12px;

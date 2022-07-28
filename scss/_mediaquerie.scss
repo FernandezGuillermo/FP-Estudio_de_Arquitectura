@@ -1,32 +1,20 @@
 /* MEDIA QUERIE CELULAR*/
 @media (min-width: 320px) and (max-width: 575px) {
     
-    .nav__list{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav__list__item{
-        flex-direction: column;
-        font-size: 10px;
-        margin: 10px;
-    }
-    
     main{
-        height: 70vh; 
+        height: 60vh; 
     }
     
     .portada{
-        height: 70vh;
+        max-height: 70vh;
         &__img{ 
             max-height: 40vh;
         }
     }
     
 
-    footer{
-        height: 20vh;
+    footer{ 
+        max-height: 20vh;
     }
 
     .redes{
@@ -36,24 +24,13 @@
         }
     }
 
-
-    .news{
-
-        &__img{
-            max-height: 20px;
-        }
-
-        &__title{
-            font-size: 10px;
-        }
-    }
-
     .copyright{
     
         &__p{
             font-size: 10px;
         }
     }
+
 
     /* OBRAS */
     .build{
@@ -203,8 +180,8 @@
         padding-top: 10px;
     
         &__maps{
-            height: 100px;
-            width: 95vw;
+            max-height: 200px;
+            max-width: 95vw;
         }
     }
 } 
@@ -212,13 +189,16 @@
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
 
+    header{
+    }
+
     main{
-        height: 70vh; 
+        max-height: 80vh; 
     }
 
     .portada{
         
-        height: 70vh;
+        max-height: 80vh;
 
         &__img{
             max-height: 50vh;
@@ -227,15 +207,7 @@
 
 
     footer{
-        height: 20vh;
-    }
-
-    .redes{
-
-        &__img{
-            height: 60px;
-        }
-    
+        max-height: 20vh;
     }
 
     .copyright{
@@ -391,8 +363,9 @@
         padding-top: 10px;
 
         &__maps{
-            height: 200px;
-            width: 97vw;
+            max-height: 200px;
+            max-width: 95vw;
+            justify-self: center;
         }
     }
 }

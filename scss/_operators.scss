@@ -1,0 +1,20 @@
+@mixin propiedadesNav($text-decoration,$color,$font-size,$transition) {
+    text-decoration: $text-decoration;
+    color: $color;
+    font-size: $font-size;
+    transition: $transition;
+}
+
+@mixin grid($display,$grid-template-rows,$grid-template-colums){
+    display: $display;
+    grid-template-rows: $grid-template-rows;
+    grid-template-columns: $grid-template-colums;
+}
+
+@mixin gridPropiedades($grid-area,$justify-self,$align-self,$background-color,$width){
+    grid-area: $grid-area;
+    justify-self: $justify-self;
+    align-self: $align-self;
+    background-color: $background-color;
+    width: $width;
+}

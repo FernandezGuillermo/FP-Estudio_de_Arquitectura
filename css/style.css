@@ -256,8 +256,8 @@
 .nav-link {
   text-decoration: none;
   color: white;
-  transition: all 2s;
-  font-size: 20px; }
+  font-size: 20px;
+  transition: all 2s; }
   .nav-link:hover {
     color: aquamarine; }
 
@@ -347,10 +347,10 @@ footer {
 /* PROYECTOS */
 .project {
   display: grid;
-  justify-items: center;
-  grid-template-areas: "proyecto proyectoMax";
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-template-areas: "proyecto proyectoMax";
   height: 60vh;
   width: 100vw; }
   .project .proyecto {
@@ -411,14 +411,14 @@ footer {
 .us {
   display: grid;
   grid-template-areas: "nosotros staff" "nosotros staff";
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   grid-template-columns: 2fr 1fr; }
   .us .nosotros {
     grid-area: nosotros;
     justify-self: center;
     align-self: center;
     background-color: #212121;
-    width: 40vw; }
+    width: 40vh; }
     .us .nosotros__title {
       font-size: 50px;
       font-family: 'Roboto', sans-serif;
@@ -434,8 +434,8 @@ footer {
     justify-self: center;
     align-self: center;
     background-color: #212121;
-    margin-top: 100px;
-    width: 900px; }
+    width: 900px;
+    margin-top: 100px; }
     .us .staff__img {
       height: 200px;
       margin-top: 50px;

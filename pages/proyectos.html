@@ -48,24 +48,42 @@
             </div>
         </nav>
     </header>
-    <main>
-        <section class="project"> <!--GALERIA DE PROYECTOS-->
-            <article class="proyecto">
-                    <img src="../resources/proyecto1.png" alt="imagen proyecto" class="proyecto__img imgP1">  
-                    <img src="../resources/proyecto2.png" alt="imagen proyecto" class="proyecto__img imgP2">
-                    <img src="../resources/proyecto3.png" alt="imagen proyecto" class="proyecto__img imgP3">
-                    <img src="../resources/proyecto4.png" alt="imagen proyecto" class="proyecto__img imgP4">
-                    <img src="../resources/proyecto5.png" alt="imagen proyecto" class="proyecto__img imgP5">
-                    <img src="../resources/proyecto6.png" alt="imagen proyecto" class="proyecto__img imgP6">
-                    <img src="../resources/proyecto7.png" alt="imagen proyecto" class="proyecto__img imgP7">
-                    <img src="../resources/proyecto8.png" alt="imagen proyecto" class="proyecto__img imgP8">
-                    <img src="../resources/proyecto9.png" alt="imagen proyecto" class="proyecto__img imgP9">            
-            </article>          
-                <article class="proyectoMax"> <!--MUESTRA EL PROYECTO ELEGIDA EN UN TAMAÑO MAYOR O UN VIDEO-->
-                    <img src="../resources/proyecto9.png" alt="proyecto max" class="proyectoMax__img">
-            </article>  
-        </section>
-    </main>
+        <main>
+            <section class="container-fluid">
+                <article class="row col-xs-12 col-md-12 col-lg-12 align-items-center hCarrousel">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../resources/proyecto1.png" alt="imagen proyecto" class="proyecto__img imgP1 d-block w-50 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/proyecto2.png" alt="imagen proyecto" class="proyecto__img imgP2 d-block w-50 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/proyecto3.png" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-50 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/proyecto4.png" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-50 mx-auto">
+                        </div>
+                        <div class="carousel-item"  >
+                            <img src="../resources/proyecto5.png" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-50 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/proyecto6.png" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-50 mx-auto">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </article>
+            </section>
+        </main>
     <footer class="container-fluid">
         <div class="row">
             <section class="redes col-xs-12 col-md-4 col-lg-4 align-self-center"> <!-- REDES -->    

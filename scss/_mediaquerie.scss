@@ -173,31 +173,29 @@
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
 
-    header{
-    }
 
     main{
-        max-height: 80vh; 
-    }
+        height: 81.22vh; 
 
-    .portada{
-        
-        max-height: 80vh;
-
-        &__img{
-            max-height: 50vh;
+        .portada{
+            max-height: 81.22vh; 
+    
+            &__img{
+                max-height: 50vh;
+            }
         }
+    
     }
 
 
     footer{
-        max-height: 20vh;
-    }
+        max-height: 13vh;
 
-    .copyright{
+        .copyright{
     
-        &__p{
-            font-size: 12px;
+            &__p{
+                font-size: 12px;
+            }
         }
     }
 
@@ -245,47 +243,7 @@
         }
     
         /* PROYECTOS */
-        .project{
-            display: grid;
-            justify-items: center;
-            grid-template-areas:"proyecto" 
-                                "proyectoMax";
-            grid-template-rows: 1fr;
-            grid-template-columns: 1fr;
-            height: 60vh;
-            width: 100vw;
-        }
-        
-        .proyecto{  
-            grid-area: proyecto;
-            justify-items: center;
-            align-items: center;
-            display: grid;
-            grid-template-areas:"imgP1 imgP2 imgP3"
-                                "imgP4 imgP5 imgP6"
-                                "imgP7 imgP8 imgP9";
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding-top: 100px;
-            width: 100vw; 
-        
-            &__img{
-                height:10vh;
-                margin: 5px;    
-            }
-        }
-        
-        .proyectoMax{
-            grid-area: proyectoMax;
-            justify-self: center;
-            width: 95vw;
-        
-            &__img{
-                padding-top: 30px;
-                height:30vh; 
-                padding-left: 95px;
-            }
-        }
+
 
     .us{
         display: grid;

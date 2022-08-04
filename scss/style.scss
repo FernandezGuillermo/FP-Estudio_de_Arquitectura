@@ -35,13 +35,13 @@
 
 /* MAIN */
 main{
-    height: 80vh;
+    height: 81.22vh;
     background-color: $color-principal;  
 }
 
 /* INDEX PORTADA */
 .portada{
-    height: 80vh;
+    height: 81.22vh;
 
     &__img{  
         padding-top: 150px; 
@@ -161,70 +161,8 @@ footer{
 }
 
 /* PROYECTOS */
-.project{
-    @include grid(grid,1fr,1fr 1fr);
-    justify-items: center;
-    grid-template-areas:"proyecto proyectoMax";
-    height: 60vh;
-    width: 100vw;
-
-    .proyecto{   
-        grid-area: proyecto;
-        align-items: center;
-        display: grid;
-        grid-template-areas:"imgP1 imgP2 imgP3"
-                            "imgP4 imgP5 imgP6"
-                            "imgP7 imgP8 imgP9";
-        grid-template-rows: 1fr 1fr 1fr ;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 150px;
-        width: 30vw; 
-        
-        &__img{
-            height:15vh;
-            margin: 5px; 
-            transition: all 2s;   
-        
-            &:hover{
-                opacity: 0.2;
-            }
-        }
-    }
-    
-    .imgP1{
-        grid-area: imgP1;
-    }
-    
-    .imgP2{
-        grid-area: imgP2;
-    }
-    
-    .imgP3{
-        grid-area: imgP3;
-    }
-    
-    .imgP4{
-        grid-area: imgP4;
-    }
-    
-    .imgP5{
-        grid-area: imgP5;
-    }
-    
-    .imgP6{
-        grid-area: imgP6;
-    }
-    
-    .proyectoMax{
-        grid-area: proyectoMax;
-        height: 60vh;
-        width: 45vw;
-    
-        &__img{
-            padding-top: 150px;
-            height: 63vh; 
-        }
-    }
+.hCarrousel{
+    height: 80vh;
 }
 
 /* CONTACTO */

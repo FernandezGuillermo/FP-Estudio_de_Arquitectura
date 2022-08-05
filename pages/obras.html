@@ -49,21 +49,45 @@
         </nav>
     </header>
     <main>
-        <section class="build"> <!--GALERIA DE OBRAS-->
-            <article class="obras">
-                <img src="../resources/obra1.png" alt="imagen obras" class="obras__img img1">  
-                <img src="../resources/obra2.png" alt="imagen obras" class="obras__img img2">
-                <img src="../resources/obra3.png" alt="imagen obras" class="obras__img img3">
-                <img src="../resources/obra4.png" alt="imagen obras" class="obras__img img4">
-                <img src="../resources/obra5.png" alt="imagen obras" class="obras__img img5">
-                <img src="../resources/obra6.png" alt="imagen obras" class="obras__img img6">
-                <img src="../resources/obra7.png" alt="imagen obras" class="obras__img img7">
-                <img src="../resources/obra8.png" alt="imagen obras" class="obras__img img8">
-                <img src="../resources/obra9.png" alt="imagen obras" class="obras__img img9">            
-            </article>          
-            <article class="obrasMax"> <!--MUESTRA LA OBRA ELEGIDA EN UN TAMAÑO MAYOR O UN VIDEO-->
-                <img src="../resources/obra9.png" alt="obras max" class="obraMax__img">
-            </article>  
+        <section class="container-fluid">
+            <article class="row align-items-center">
+                <div class="col-xs-12 col-md-12 col-lg-6 hCarrousel">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../resources/obra1.jpg" alt="imagen proyecto" class="proyecto__img imgP1 d-block w-75 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/obra2.jpg" alt="imagen proyecto" class="proyecto__img imgP2 d-block w-75 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/obra3.jpg" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-75 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/obra4.jpg" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-75 mx-auto">
+                        </div>
+                        <div class="carousel-item"  >
+                            <img src="../resources/obra5.jpg" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-75 mx-auto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../resources/obra6.jpg" alt="imagen proyecto" class="proyecto__img imgP3 d-block w-50 mx-auto">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+                <div class="col-xs-12 col-md-12 col-lg-6">
+                    <h1 class="titleObras">Obras</h1>
+                    <p class="pObras">Trabajamos con obras de distinta escala y destino, en nuestra cartera realizamos Talleres mecanicos, Viviendas Colectivas, Viviendas Familiares, Reformas, Ampliaciones </p>
+                </div>
         </section>
     </main>
     <footer class="container-fluid">

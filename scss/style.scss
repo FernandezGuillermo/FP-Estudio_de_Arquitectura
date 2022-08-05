@@ -91,73 +91,12 @@ footer{
 }
 
 /* OBRAS */
-.build{
-    display: grid;
-    justify-items: center;
-    grid-template-areas:"obras obrasMax";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    height: 60vh;
-    width: 100vw;
+.pObras{
+    color:$color-text;
+}
 
-    .obras{  
-        grid-area: obras;
-        align-items: center;
-        display: grid;
-        grid-template-areas:"img1 img2 img3"
-                            "img4 img5 img6"
-                            "img7 img8 img9";
-        grid-template-rows: 1fr 1fr 1fr ;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-top: 150px;
-        width: 30vw;
-        
-        &__img{
-            height:15vh;
-            margin: 5px;  
-            transition: all 2s; 
-            
-            &:hover{
-                opacity: 0.1;
-            }
-        }
-        
-        .img1{
-            grid-area: img1;
-        }
-        
-        .img2{
-            grid-area: img2;
-        }
-        
-        .img3{
-            grid-area: img3;
-        }
-        
-        .img4{
-            grid-area: img4;
-        }
-        
-        .img5{
-            grid-area: img5;
-        }
-        
-        .img6{
-            grid-area: img6;
-        }
-    }
-    
-    .obrasMax{
-        grid-area: obrasMax;
-        height: 60vh;
-        width: 45vw;
-    
-        &__img{
-            padding-top: 150px;
-            height: 63vh; 
-        }
-    }
-
+.titleObras{
+    color: $color-text;
 }
 
 /* PROYECTOS */

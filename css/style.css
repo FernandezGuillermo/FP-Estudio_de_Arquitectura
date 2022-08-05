@@ -227,48 +227,11 @@ footer {
   color: white; }
 
 /* OBRAS */
-.build {
-  display: grid;
-  justify-items: center;
-  grid-template-areas: "obras obrasMax";
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
-  height: 60vh;
-  width: 100vw; }
-  .build .obras {
-    grid-area: obras;
-    align-items: center;
-    display: grid;
-    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 150px;
-    width: 30vw; }
-    .build .obras__img {
-      height: 15vh;
-      margin: 5px;
-      transition: all 2s; }
-      .build .obras__img:hover {
-        opacity: 0.1; }
-    .build .obras .img1 {
-      grid-area: img1; }
-    .build .obras .img2 {
-      grid-area: img2; }
-    .build .obras .img3 {
-      grid-area: img3; }
-    .build .obras .img4 {
-      grid-area: img4; }
-    .build .obras .img5 {
-      grid-area: img5; }
-    .build .obras .img6 {
-      grid-area: img6; }
-  .build .obrasMax {
-    grid-area: obrasMax;
-    height: 60vh;
-    width: 45vw; }
-    .build .obrasMax__img {
-      padding-top: 150px;
-      height: 63vh; }
+.pObras {
+  color: white; }
+
+.titleObras {
+  color: white; }
 
 /* PROYECTOS */
 .hCarrousel {

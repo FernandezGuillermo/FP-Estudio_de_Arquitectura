@@ -231,7 +231,8 @@ footer {
   color: white; }
 
 .titleObras {
-  color: white; }
+  color: white;
+  text-justify: auto; }
 
 /* PROYECTOS */
 .hCarrousel {
@@ -262,14 +263,15 @@ footer {
   .us .ht-row {
     height: 80vh; }
   .us .nosotros__title {
-    font-size: 50px;
+    font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     color: white; }
   .us .nosotros__text {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
+    font-size: 1.2rem;
     color: white;
-    text-justify: distribute; }
+    text-justify: distribute;
+    padding-top: 5px; }
   .us .staff__img {
     height: 20vh; }
   .us .staff__text {

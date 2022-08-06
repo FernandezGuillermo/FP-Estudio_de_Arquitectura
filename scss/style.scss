@@ -97,6 +97,7 @@ footer{
 
 .titleObras{
     color: $color-text;
+    text-justify: auto;
 }
 
 /* PROYECTOS */
@@ -147,16 +148,17 @@ footer{
     .nosotros{
 
         &__title{
-            font-size: 50px;
+            font-size: 3rem;
             font-family: 'Roboto', sans-serif;
             color: $color-text;
         }
         
         &__text{
             font-family: 'Roboto', sans-serif;
-            font-size: 15px;
+            font-size: 1.2rem;
             color: $color-text;
             text-justify:distribute;
+            padding-top: 5px;
         }
     }
 

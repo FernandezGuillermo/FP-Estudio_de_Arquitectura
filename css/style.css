@@ -2,6 +2,7 @@
 /*Texto*/
 /* MEDIA QUERIE CELULAR*/
 @media (min-width: 320px) and (max-width: 575px) {
+  /*INDEX*/
   main {
     max-height: 81.21vh; }
   .portada {
@@ -15,63 +16,7 @@
     footer .copyright__p {
       font-size: 10px; }
   /* OBRAS */
-  .build {
-    display: grid;
-    justify-items: center;
-    grid-template-areas: "obras"  "obrasMax";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    height: 60vh;
-    width: 100vw; }
-    .build .obras {
-      grid-area: obras;
-      justify-items: center;
-      align-items: center;
-      display: grid;
-      grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9";
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding-top: 150px;
-      width: 100vw; }
-      .build .obras__img {
-        height: 7vh;
-        margin: 5px; }
-    .build .obrasMax {
-      grid-area: obrasMax;
-      justify-self: center;
-      width: 95vw; }
-      .build .obrasMax__img {
-        padding-top: 30px;
-        height: 20vh; }
   /* PROYECTOS */
-  .project {
-    display: grid;
-    justify-items: center;
-    grid-template-areas: "proyecto"  "proyectoMax";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    height: 60vh;
-    width: 100vw; }
-    .project .proyecto {
-      grid-area: proyecto;
-      justify-items: center;
-      align-items: center;
-      display: grid;
-      grid-template-areas: "imgP1 imgP2 imgP3" "imgP4 imgP5 imgP6" "imgP7 imgP8 imgP9";
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      padding-top: 150px;
-      width: 100vw; }
-      .project .proyecto__img {
-        height: 7vh;
-        margin: 5px; }
-    .project .proyectoMax {
-      grid-area: proyectoMax;
-      justify-self: center;
-      width: 95vw; }
-      .project .proyectoMax__img {
-        padding-top: 30px;
-        height: 20vh; }
   /*SOBRE NOSOTROS*/
   .us {
     max-height: 60vh; }
@@ -100,6 +45,7 @@
 
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
+  /*INDEX*/
   main {
     height: 81.22vh; }
     main .portada {
@@ -110,37 +56,7 @@
     max-height: 13vh; }
     footer .copyright__p {
       font-size: 12px; }
-  /* OBRAS */
-  .build {
-    display: grid;
-    justify-items: center;
-    grid-template-areas: "obras"  "obrasMax";
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    height: 60vh;
-    width: 100vw; }
-  .obras {
-    grid-area: obras;
-    justify-items: center;
-    align-items: center;
-    display: grid;
-    grid-template-areas: "img1 img2 img3" "img4 img5 img6" "img7 img8 img9";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 150px;
-    width: 100vw; }
-    .obras__img {
-      height: 10vh;
-      margin: 5px; }
-  .obrasMax {
-    grid-area: obrasMax;
-    justify-self: center;
-    width: 95vw; }
-    .obrasMax__img {
-      padding-top: 30px;
-      height: 30vh;
-      padding-left: 95px; }
-  /* PROYECTOS */
+  /* SOBRE NOSOTROS */
   .us {
     width: 100vw; }
     .us .nosotros__title {
@@ -236,7 +152,7 @@ footer {
 
 /* PROYECTOS */
 .hCarrousel {
-  height: 80vh; }
+  height: 81.22vh; }
 
 /* CONTACTO */
 .form-control {
@@ -245,7 +161,7 @@ footer {
     background-color: aquamarine; }
 
 .form .hrow {
-  height: 80vh; }
+  height: 81.22vh; }
 
 .form .btn {
   background-color: white;
@@ -259,9 +175,9 @@ footer {
 
 /* SOBRE NOSOTROS */
 .us {
-  height: 80vh; }
+  height: 81.22vh; }
   .us .ht-row {
-    height: 80vh; }
+    height: 81.22vh; }
   .us .nosotros__title {
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;

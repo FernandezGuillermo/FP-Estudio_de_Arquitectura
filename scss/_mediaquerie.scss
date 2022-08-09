@@ -1,6 +1,8 @@
 /* MEDIA QUERIE CELULAR*/
 @media (min-width: 320px) and (max-width: 575px) {
     
+    /*INDEX*/
+    
     main{
         max-height: 81.21vh; 
     }
@@ -35,89 +37,9 @@
 
 
     /* OBRAS */
-    .build{
-        display: grid;
-        justify-items: center;
-        grid-template-areas:"obras" 
-                            "obrasMax";
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        height: 60vh;
-        width: 100vw;
-    
-        .obras{  
-            grid-area: obras;
-            justify-items: center;
-            align-items: center;
-            display: grid;
-            grid-template-areas:"img1 img2 img3"
-                                "img4 img5 img6"
-                                "img7 img8 img9";
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding-top: 150px;
-            width: 100vw; 
-        
-            &__img{
-                height:7vh;
-                margin: 5px;    
-            }
-        }
-    
-        .obrasMax{
-            grid-area: obrasMax;
-            justify-self: center;
-            width: 95vw;
-    
-            &__img{
-                padding-top: 30px;
-                height:20vh; 
-            }
-        }
-    }
 
     /* PROYECTOS */
-    .project{
-        display: grid;
-        justify-items: center;
-        grid-template-areas:"proyecto" 
-                            "proyectoMax";
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        height: 60vh;
-        width: 100vw;
-    
-        
-        .proyecto{  
-            grid-area: proyecto;
-            justify-items: center;
-            align-items: center;
-            display: grid;
-            grid-template-areas:"imgP1 imgP2 imgP3"
-                                "imgP4 imgP5 imgP6"
-                                "imgP7 imgP8 imgP9";
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding-top: 150px;
-            width: 100vw; 
-        
-            &__img{
-                height:7vh;
-                margin: 5px;    
-            }
-        }
-    
-        .proyectoMax{
-            grid-area: proyectoMax;
-            justify-self: center;
-            width: 95vw;
-        
-            &__img{
-                padding-top: 30px;
-                height:20vh; 
-            }
-        }
-    }
+
 
     /*SOBRE NOSOTROS*/
     .us{
@@ -148,8 +70,6 @@
                 max-height: 9vh;
             }
         
-            &__text{
-            }
         }
     }
 
@@ -169,11 +89,12 @@
             max-width: 95vw;
         }
     }
-} 
+}
 
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
 
+    /*INDEX*/
 
     main{
         height: 81.22vh; 
@@ -200,52 +121,8 @@
         }
     }
 
-        /* OBRAS */
-        .build{
-            display: grid;
-            justify-items: center;
-            grid-template-areas:"obras" 
-                                "obrasMax";
-            grid-template-rows: 1fr;
-            grid-template-columns: 1fr;
-            height: 60vh;
-            width: 100vw;
-        }
-        
-        .obras{  
-            grid-area: obras;
-            justify-items: center;
-            align-items: center;
-            display: grid;
-            grid-template-areas:"img1 img2 img3"
-                                "img4 img5 img6"
-                                "img7 img8 img9";
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr 1fr 1fr;
-            padding-top: 150px;
-            width: 100vw; 
-        
-            &__img{
-                height:10vh;
-                margin: 5px;    
-            }
-        }
-    
-        .obrasMax{
-            grid-area: obrasMax;
-            justify-self: center;
-            width: 95vw;
 
-            &__img{
-                padding-top: 30px;
-                height:30vh;
-                padding-left: 95px; 
-            }
-        }
-    
-        /* PROYECTOS */
-
-
+        /* SOBRE NOSOTROS */
     .us{
         width: 100vw;
 

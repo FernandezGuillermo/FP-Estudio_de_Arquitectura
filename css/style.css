@@ -3,40 +3,35 @@
 /* MEDIA QUERIE CELULAR*/
 @media (min-width: 320px) and (max-width: 575px) {
   /*INDEX*/
-  main {
-    max-height: 81.21vh; }
   .portada {
-    max-height: 81.21vh; }
+    padding-top: 70%;
+    padding-bottom: 70%; }
     .portada__img {
-      max-height: 40vh; }
-  footer {
-    max-height: 11.65vh; }
-    footer .redes__img {
-      max-height: 30px; }
-    footer .copyright__p {
-      font-size: 10px; }
+      max-height: 150px; }
+  footer .redes__img {
+    max-height: 30px; }
+  footer .copyright__p {
+    font-size: 10px; }
   /* OBRAS */
   /* PROYECTOS */
   /*SOBRE NOSOTROS*/
-  .us {
-    max-height: 60vh; }
-    .us .ht-row {
-      max-height: 70vh; }
-    .us .nosotros__title {
-      margin-bottom: 2px;
-      padding: 2px;
-      font-size: 8px; }
-    .us .nosotros__text {
-      margin: 2px; }
+  .us .nosotros__title {
+    margin-bottom: 2px;
+    padding: 2px;
+    font-size: 6px; }
+  .us .nosotros__text {
+    margin: 1px; }
+  .us .staff {
+    margin-top: 20px; }
     .us .staff__img {
       margin-top: 2px;
       max-height: 9vh; }
   /*CONTACTO*/
   .hrow {
-    height: 5vh;
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .ubicacion {
-    margin-top: 5px;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding-top: 10px; }
     .ubicacion__maps {
@@ -108,28 +103,26 @@
 
 /* MAIN */
 main {
-  height: 81.22vh;
   background-color: #212121; }
 
 /* INDEX PORTADA */
-.portada {
-  height: 81.22vh; }
-  .portada__img {
-    padding-top: 150px;
-    height: 70vh; }
+.portada__img {
+  margin-top: 6%;
+  height: 600px; }
 
 /* FOOTER */
 footer {
-  height: 13vh;
   background-color: #212121; }
 
 .news {
-  height: 13vh; }
+  margin-top: 4%;
+  margin-bottom: 4%; }
   .news__img {
+    margin: 5px;
     height: 80px; }
   .news__title {
     font-family: 'Roboto', sans-serif;
-    font-size: 3vw;
+    font-size: 30px;
     color: white; }
 
 .redes__img {
@@ -161,7 +154,8 @@ footer {
     background-color: aquamarine; }
 
 .form .hrow {
-  height: 81.22vh; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
 
 .form .btn {
   background-color: white;
@@ -174,24 +168,27 @@ footer {
   width: 500px; }
 
 /* SOBRE NOSOTROS */
-.us {
-  height: 81.22vh; }
-  .us .ht-row {
-    height: 81.22vh; }
-  .us .nosotros__title {
-    font-size: 3rem;
-    font-family: 'Roboto', sans-serif;
-    color: white; }
-  .us .nosotros__text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    color: white;
-    text-justify: distribute;
-    padding-top: 5px; }
-  .us .staff__img {
-    height: 20vh; }
-  .us .staff__text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vh;
-    color: white;
-    width: 100%; }
+.us .ht-row {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.us .nosotros__title {
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
+  color: white; }
+
+.us .nosotros__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-justify: distribute;
+  padding-top: 5px; }
+
+.us .staff__img {
+  height: 20vh; }
+
+.us .staff__text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vh;
+  color: white;
+  width: 100%; }

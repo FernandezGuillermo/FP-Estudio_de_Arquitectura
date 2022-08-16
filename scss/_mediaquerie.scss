@@ -88,13 +88,13 @@
     /*INDEX*/
 
     main{
-        height: 81.22vh; 
 
         .portada{
-            max-height: 81.22vh; 
+            padding-top: 40%;
+            padding-bottom: 30%;
     
             &__img{
-                max-height: 50vh;
+                max-height: 400px;
             }
         }
     
@@ -102,8 +102,10 @@
 
 
     footer{
-        max-height: 13vh;
-
+        .news{
+            margin-top: 7%;
+            margin-bottom: 7%;
+        }
         .copyright{
     
             &__p{
@@ -115,43 +117,40 @@
 
         /* SOBRE NOSOTROS */
     .us{
-        width: 100vw;
-
+        padding-top: 110px;
         .nosotros{
-
             &__title{
+                margin-left: 20px;
                 font-size: 10px;
             }
         
             &__text{
-                font-size: 10px;
-                margin: 2px;
+                font-size: 7px;
+                margin: 20px;
             }
         }
         
         .staff{
-            max-width: 50%;
         
             &__img{
-                max-height: 14vh;
+                margin: 10px;
+                max-height: 150px;
             }
         
         }
     }
 
-    .hrow{
-        padding-top: 50px;
-        height: 60vh;
-    }
-
-    .ubicacion{ 
-        margin-top: 10px;
-        padding-top: 10px;
-
-        &__maps{
-            max-height: 200px;
-            max-width: 95vw;
-            justify-self: center;
+    .form{
+        padding-top: 5%;
+        .ubicacion{ 
+            margin-top: 130px;
+            padding-top: 10px;
+    
+            &__maps{
+                max-height: 200px;
+                width: 95vw;
+            }
         }
     }
+    
 }

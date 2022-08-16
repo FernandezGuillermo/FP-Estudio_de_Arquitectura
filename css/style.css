@@ -41,38 +41,36 @@
 /* MEDIA QUERIE TABLET*/
 @media (min-width: 576px) and (max-width: 992px) {
   /*INDEX*/
-  main {
-    height: 81.22vh; }
-    main .portada {
-      max-height: 81.22vh; }
-      main .portada__img {
-        max-height: 50vh; }
-  footer {
-    max-height: 13vh; }
-    footer .copyright__p {
-      font-size: 12px; }
+  main .portada {
+    padding-top: 40%;
+    padding-bottom: 30%; }
+    main .portada__img {
+      max-height: 400px; }
+  footer .news {
+    margin-top: 7%;
+    margin-bottom: 7%; }
+  footer .copyright__p {
+    font-size: 12px; }
   /* SOBRE NOSOTROS */
   .us {
-    width: 100vw; }
+    padding-top: 110px; }
     .us .nosotros__title {
+      margin-left: 20px;
       font-size: 10px; }
     .us .nosotros__text {
-      font-size: 10px;
-      margin: 2px; }
-    .us .staff {
-      max-width: 50%; }
-      .us .staff__img {
-        max-height: 14vh; }
-  .hrow {
-    padding-top: 50px;
-    height: 60vh; }
-  .ubicacion {
-    margin-top: 10px;
-    padding-top: 10px; }
-    .ubicacion__maps {
-      max-height: 200px;
-      max-width: 95vw;
-      justify-self: center; } }
+      font-size: 7px;
+      margin: 20px; }
+    .us .staff__img {
+      margin: 10px;
+      max-height: 150px; }
+  .form {
+    padding-top: 5%; }
+    .form .ubicacion {
+      margin-top: 130px;
+      padding-top: 10px; }
+      .form .ubicacion__maps {
+        max-height: 200px;
+        width: 95vw; } }
 
 * {
   /* RESET CSS */

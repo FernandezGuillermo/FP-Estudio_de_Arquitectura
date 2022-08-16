@@ -145,7 +145,19 @@ footer {
 .hCarrousel {
   height: 81.22vh; }
 
+.proyectos__title {
+  color: white; }
+
+.proyectos__text {
+  color: white; }
+
 /* CONTACTO */
+.form .contacto__title {
+  color: white; }
+
+.form .contacto__text {
+  color: white; }
+
 .form-control {
   transition: all 2s; }
   .form-control:focus {

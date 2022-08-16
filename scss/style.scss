@@ -102,8 +102,24 @@ footer{
     height: 81.22vh;
 }
 
+.proyectos__title{
+    color: $color-text;
+}
+
+.proyectos__text{
+    color: $color-text;
+}
+
 /* CONTACTO */
 .form{
+    .contacto__title{
+        color: $color-text;
+    }
+
+    .contacto__text{
+        color: $color-text;
+    }
+
     &-control{
         transition: all 2s;
 

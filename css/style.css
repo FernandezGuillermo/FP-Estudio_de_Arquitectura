@@ -4,8 +4,8 @@
 @media (min-width: 320px) and (max-width: 575px) {
   /*INDEX*/
   .portada {
-    padding-top: 70%;
-    padding-bottom: 70%; }
+    padding-top: 71%;
+    padding-bottom: 71%; }
     .portada__img {
       max-height: 150px; }
   footer .redes__img {
@@ -13,7 +13,14 @@
   footer .copyright__p {
     font-size: 10px; }
   /* OBRAS */
+  .obras {
+    padding-top: 100%;
+    padding-bottom: 100%; }
+  .titleObras {
+    margin-top: 30px; }
   /* PROYECTOS */
+  .hcarrousel {
+    padding-top: 50%; }
   /*SOBRE NOSOTROS*/
   .us .nosotros__title {
     margin-bottom: 2px;
@@ -52,6 +59,10 @@
     margin-bottom: 7%; }
   footer .copyright__p {
     font-size: 12px; }
+  /* OBRAS */
+  .obras {
+    padding-top: 70%;
+    padding-bottom: 70%; }
   /* SOBRE NOSOTROS */
   .us {
     padding-top: 110px; }
@@ -106,7 +117,7 @@ main {
 
 /* INDEX PORTADA */
 .portada__img {
-  margin-top: 6%;
+  margin-top: 5.5%;
   height: 600px; }
 
 /* FOOTER */
@@ -135,6 +146,10 @@ footer {
   color: white; }
 
 /* OBRAS */
+.obras {
+  padding-top: 8%;
+  padding-bottom: 8%; }
+
 .pObras {
   color: white; }
 
@@ -144,7 +159,8 @@ footer {
 
 /* PROYECTOS */
 .hCarrousel {
-  height: 81.22vh; }
+  padding-top: 2.2%;
+  padding-bottom: 2%; }
 
 .proyectos__title {
   color: white; }
@@ -180,8 +196,8 @@ footer {
 
 /* SOBRE NOSOTROS */
 .us .ht-row {
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  padding-top: 5%;
+  padding-bottom: 4.7%; }
 
 .us .nosotros__title {
   font-size: 3rem;

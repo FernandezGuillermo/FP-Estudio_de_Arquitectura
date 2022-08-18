@@ -4,8 +4,8 @@
     /*INDEX*/
     
     .portada{
-        padding-top: 70%;
-        padding-bottom: 70%;
+        padding-top: 71%;
+        padding-bottom: 71%;
         &__img{ 
             max-height: 150px;
         }
@@ -34,9 +34,18 @@
 
 
     /* OBRAS */
+    .obras{
+        padding-top: 100%;
+        padding-bottom: 100%;
+    }
 
+    .titleObras{
+        margin-top: 30px;
+    }
     /* PROYECTOS */
-
+    .hcarrousel{
+        padding-top: 50%;
+    }
 
     /*SOBRE NOSOTROS*/
     .us{
@@ -115,7 +124,12 @@
         }
     }
 
-
+        /* OBRAS */
+        .obras{
+            padding-top: 70%;
+            padding-bottom: 70%;
+        }
+        
         /* SOBRE NOSOTROS */
     .us{
         padding-top: 110px;

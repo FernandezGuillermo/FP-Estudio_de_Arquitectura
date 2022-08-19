@@ -145,10 +145,13 @@ footer {
   color: white; }
 
 /* OBRAS */
-.pObras {
+.obras__top {
+  height: 5vh; }
+
+.obras__text__title {
   color: white; }
 
-.titleObras {
+.obras__text__p {
   color: white;
   text-justify: auto; }
 

@@ -89,16 +89,25 @@ footer{
 
 /* OBRAS */
 .obras{
+    
+    &__top{
+        height: 5vh;
+    }
 
-}
-.pObras{
-    color:$color-text;
+    &__text{
+        &__title{
+            color:$color-text;
+        }
+        
+        &__p{
+            color: $color-text;
+            text-justify: auto;
+        }
+    }
+    
 }
 
-.titleObras{
-    color: $color-text;
-    text-justify: auto;
-}
+
 
 /* PROYECTOS */
 .hCarrousel{

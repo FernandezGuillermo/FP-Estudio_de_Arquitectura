@@ -13,7 +13,7 @@
     
 
     footer{ 
-       
+        
         .redes{
             
             &__img{
@@ -34,17 +34,18 @@
 
 
     /* OBRAS */
-    .obras{
-        padding-top: 100%;
-        padding-bottom: 100%;
-    }
 
     .titleObras{
         margin-top: 30px;
     }
+
+    .pObras{
+        font-size: 15px;
+    }
+
     /* PROYECTOS */
     .hcarrousel{
-        padding-top: 50%;
+        padding-top: 50px;
     }
 
     /*SOBRE NOSOTROS*/

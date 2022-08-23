@@ -35,17 +35,13 @@
 
     /* OBRAS */
 
-    .titleObras{
-        margin-top: 30px;
-    }
-
-    .pObras{
-        font-size: 15px;
-    }
 
     /* PROYECTOS */
-    .hcarrousel{
-        padding-top: 50px;
+    .proyectos{
+    
+        &__carrousel{
+            height: 70vh;
+        }
     }
 
     /*SOBRE NOSOTROS*/
@@ -127,13 +123,29 @@
 
         /* OBRAS */
         .obras{
-            padding-top: 70%;
-            padding-bottom: 70%;
+            &__title{
+                color:$color-text;
+                padding-top: 50px;
+            }
+            
+            &__p{
+                color: $color-text;
+                text-justify: auto;
+            }
+        }
+
+
+        /* PROYECTOS */
+        .proyectos{
+    
+            &__carrousel{
+                height: 75vh;
+            }
         }
         
         /* SOBRE NOSOTROS */
     .us{
-        padding-top: 110px;
+        
         .nosotros{
             &__title{
                 margin-left: 20px;

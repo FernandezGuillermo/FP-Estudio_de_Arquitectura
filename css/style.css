@@ -13,13 +13,9 @@
   footer .copyright__p {
     font-size: 10px; }
   /* OBRAS */
-  .titleObras {
-    margin-top: 30px; }
-  .pObras {
-    font-size: 15px; }
   /* PROYECTOS */
-  .hcarrousel {
-    padding-top: 50px; }
+  .proyectos__carrousel {
+    height: 70vh; }
   /*SOBRE NOSOTROS*/
   .us .nosotros__title {
     margin-bottom: 2px;
@@ -59,21 +55,25 @@
   footer .copyright__p {
     font-size: 12px; }
   /* OBRAS */
-  .obras {
-    padding-top: 70%;
-    padding-bottom: 70%; }
+  .obras__title {
+    color: white;
+    padding-top: 50px; }
+  .obras__p {
+    color: white;
+    text-justify: auto; }
+  /* PROYECTOS */
+  .proyectos__carrousel {
+    height: 75vh; }
   /* SOBRE NOSOTROS */
-  .us {
-    padding-top: 110px; }
-    .us .nosotros__title {
-      margin-left: 20px;
-      font-size: 10px; }
-    .us .nosotros__text {
-      font-size: 7px;
-      margin: 20px; }
-    .us .staff__img {
-      margin: 10px;
-      max-height: 150px; }
+  .us .nosotros__title {
+    margin-left: 20px;
+    font-size: 10px; }
+  .us .nosotros__text {
+    font-size: 7px;
+    margin: 20px; }
+  .us .staff__img {
+    margin: 10px;
+    max-height: 150px; }
   .form {
     padding-top: 5%; }
     .form .ubicacion {
@@ -146,25 +146,30 @@ footer {
 
 /* OBRAS */
 .obras__top {
-  height: 5vh; }
+  height: 17vh; }
 
-.obras__text__title {
+.obras__title {
   color: white; }
 
-.obras__text__p {
+.obras__p {
   color: white;
   text-justify: auto; }
 
+.obras__bottom {
+  height: 16vh; }
+
 /* PROYECTOS */
-.hCarrousel {
-  padding-top: 44px;
-  padding-bottom: 44px; }
+.proyectos__top {
+  height: 5vh; }
 
 .proyectos__title {
   color: white; }
 
 .proyectos__text {
   color: white; }
+
+.proyectos__bottom {
+  height: 5vh; }
 
 /* CONTACTO */
 .form .contacto__title {

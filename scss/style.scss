@@ -91,18 +91,20 @@ footer{
 .obras{
     
     &__top{
-        height: 5vh;
+        height: 17vh;
     }
 
-    &__text{
-        &__title{
-            color:$color-text;
-        }
-        
-        &__p{
-            color: $color-text;
-            text-justify: auto;
-        }
+    &__title{
+        color:$color-text;
+    }
+    
+    &__p{
+        color: $color-text;
+        text-justify: auto;
+    }
+
+    &__bottom{
+        height: 16vh;
     }
     
 }
@@ -110,18 +112,26 @@ footer{
 
 
 /* PROYECTOS */
-.hCarrousel{
-    padding-top: 44px;
-    padding-bottom: 44px;
+.proyectos{
+
+    &__top{
+        height: 5vh;
+    }
+
+    &__title{
+        color: $color-text;
+    }
+    
+    &__text{
+        color: $color-text;
+    }
+
+    &__bottom{
+        height: 5vh;
+    }
 }
 
-.proyectos__title{
-    color: $color-text;
-}
 
-.proyectos__text{
-    color: $color-text;
-}
 
 /* CONTACTO */
 .form{

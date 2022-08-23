@@ -15,38 +15,41 @@
     footer{ 
         
         .redes{
-            
+            display: flex;
+            justify-content: center;
             &__img{
                 max-height: 30px;
             }
         }
     
         .copyright{
-        
+            padding-top:10px;
             &__p{
+                align-self: center;
                 font-size: 10px;
             }
         }
         
+        .news{ 
+            &__title{
+                font-size: 15px; 
+                color: $color-text;  
+            }
+        }
     }
-
-
-
-
-    /* OBRAS */
 
 
     /* PROYECTOS */
     .proyectos{
     
         &__carrousel{
-            height: 70vh;
+            height: 75vh;
         }
     }
 
     /*SOBRE NOSOTROS*/
     .us{
-
+        
         .nosotros{
             &__title{
                 margin-bottom: 2px;
@@ -145,7 +148,8 @@
         
         /* SOBRE NOSOTROS */
     .us{
-        
+        padding-top: 30%;
+        padding-bottom: 30%;
         .nosotros{
             &__title{
                 margin-left: 20px;

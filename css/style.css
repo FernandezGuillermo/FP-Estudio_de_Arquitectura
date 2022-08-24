@@ -8,14 +8,22 @@
     padding-bottom: 71%; }
     .portada__img {
       max-height: 150px; }
-  footer .redes__img {
-    max-height: 30px; }
-  footer .copyright__p {
-    font-size: 10px; }
-  /* OBRAS */
+  footer .redes {
+    display: flex;
+    justify-content: center; }
+    footer .redes__img {
+      max-height: 30px; }
+  footer .copyright {
+    padding-top: 10px; }
+    footer .copyright__p {
+      align-self: center;
+      font-size: 10px; }
+  footer .news__title {
+    font-size: 15px;
+    color: white; }
   /* PROYECTOS */
   .proyectos__carrousel {
-    height: 70vh; }
+    height: 75vh; }
   /*SOBRE NOSOTROS*/
   .us .nosotros__title {
     margin-bottom: 2px;
@@ -65,15 +73,18 @@
   .proyectos__carrousel {
     height: 75vh; }
   /* SOBRE NOSOTROS */
-  .us .nosotros__title {
-    margin-left: 20px;
-    font-size: 10px; }
-  .us .nosotros__text {
-    font-size: 7px;
-    margin: 20px; }
-  .us .staff__img {
-    margin: 10px;
-    max-height: 150px; }
+  .us {
+    padding-top: 30%;
+    padding-bottom: 30%; }
+    .us .nosotros__title {
+      margin-left: 20px;
+      font-size: 10px; }
+    .us .nosotros__text {
+      font-size: 7px;
+      margin: 20px; }
+    .us .staff__img {
+      margin: 10px;
+      max-height: 150px; }
   .form {
     padding-top: 5%; }
     .form .ubicacion {
@@ -126,9 +137,6 @@ footer {
 .news {
   margin-top: 4%;
   margin-bottom: 4%; }
-  .news__img {
-    margin: 5px;
-    height: 80px; }
   .news__title {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -146,7 +154,7 @@ footer {
 
 /* OBRAS */
 .obras__top {
-  height: 17vh; }
+  height: 16.5vh; }
 
 .obras__title {
   color: white; }

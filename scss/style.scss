@@ -7,6 +7,8 @@
     padding: 0;
 }
 
+/*BARRA DE NAVEGACIO*/
+
 .navbar-brand{
 
     @include propiedadesNav(none,$color-text,20px,all 2s);
@@ -154,9 +156,7 @@ footer{
 
     .btn{
         background-color: white;
-        transition: all 2s;
-    
-        
+        transition: all 2s;   
 
     &:hover{
         background-color: $color-logo;

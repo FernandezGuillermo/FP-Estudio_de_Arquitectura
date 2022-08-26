@@ -126,15 +126,19 @@
 
         /* OBRAS */
         .obras{
+            
             &__title{
                 color:$color-text;
-                padding-top: 55px;
+                padding-top: 50px;
             }
             
             &__p{
                 color: $color-text;
                 text-justify: auto;
+                padding-top: 5px;
+                font-size: 25px;
             }
+            
         }
 
 
@@ -143,6 +147,9 @@
     
             &__carrousel{
                 height: 75vh;
+            }
+            &__text{
+                font-size: 20px;
             }
         }
         

@@ -65,13 +65,17 @@
   /* OBRAS */
   .obras__title {
     color: white;
-    padding-top: 55px; }
+    padding-top: 50px; }
   .obras__p {
     color: white;
-    text-justify: auto; }
+    text-justify: auto;
+    padding-top: 5px;
+    font-size: 25px; }
   /* PROYECTOS */
   .proyectos__carrousel {
     height: 75vh; }
+  .proyectos__text {
+    font-size: 20px; }
   /* SOBRE NOSOTROS */
   .us {
     padding-top: 30%;

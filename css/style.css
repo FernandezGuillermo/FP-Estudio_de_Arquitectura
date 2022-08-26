@@ -153,80 +153,64 @@ footer {
   color: white; }
 
 /* OBRAS */
-.obras__top {
-  height: 16.5vh; }
-
-.obras__title {
-  color: white; }
-
-.obras__p {
+.pObras {
   color: white;
-  text-justify: auto; }
-
-.obras__bottom {
-  height: 16vh; }
-
-/* PROYECTOS */
-.proyectos__top {
-  height: 5vh; }
-
-.proyectos__title {
-  color: white; }
-
-.proyectos__text {
-  color: white; }
-
-.proyectos__bottom {
-  height: 5vh; }
-
-/* CONTACTO */
-.form .contacto__title {
-  color: white; }
-
-.form .contacto__text {
-  color: white; }
-
-.form-control {
-  transition: all 2s; }
-  .form-control:focus {
-    background-color: aquamarine; }
-
-.form .hrow {
-  padding-top: 100px;
-  padding-bottom: 100px; }
-
-.form .btn {
-  background-color: white;
-  transition: all 2s; }
-  .form .btn:hover {
-    background-color: aquamarine; }
-
-.ubicacion__maps {
-  height: 500px;
-  width: 500px; }
-
-/* SOBRE NOSOTROS */
-.us .ht-row {
-  padding-top: 5%;
-  padding-bottom: 4.7%; }
-
-.us .nosotros__title {
-  font-size: 3rem;
-  font-family: 'Roboto', sans-serif;
-  color: white; }
-
-.us .nosotros__text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.2rem;
-  color: white;
-  text-justify: distribute;
-  padding-top: 5px; }
-
-.us .staff__img {
-  height: 20vh; }
-
-.us .staff__text {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2vh;
-  color: white;
-  width: 100%; }
+  /* PROYECTOS */
+  /* CONTACTO */
+  /* SOBRE NOSOTROS */ }
+  .pObras .obras__top {
+    height: 16.5vh; }
+  .pObras .obras__title {
+    color: white; }
+  .pObras .obras__p {
+    color: white;
+    text-justify: auto; }
+  .pObras .obras__bottom {
+    height: 16vh; }
+  .pObras .proyectos__top {
+    height: 5vh; }
+  .pObras .proyectos__title {
+    color: white; }
+  .pObras .proyectos__text {
+    color: white; }
+  .pObras .proyectos__bottom {
+    height: 5vh; }
+  .pObras .form .contacto__title {
+    color: white; }
+  .pObras .form .contacto__text {
+    color: white; }
+  .pObras .form-control {
+    transition: all 2s; }
+    .pObras .form-control:focus {
+      background-color: aquamarine; }
+  .pObras .form .hrow {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  .pObras .form .btn {
+    background-color: white;
+    transition: all 2s; }
+    .pObras .form .btn:hover {
+      background-color: aquamarine; }
+  .pObras .ubicacion__maps {
+    height: 500px;
+    width: 500px; }
+  .pObras .us .ht-row {
+    padding-top: 5%;
+    padding-bottom: 4.7%; }
+  .pObras .us .nosotros__title {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white; }
+  .pObras .us .nosotros__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    text-justify: distribute;
+    padding-top: 5px; }
+  .pObras .us .staff__img {
+    height: 20vh; }
+  .pObras .us .staff__text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    color: white;
+    width: 100%; }
